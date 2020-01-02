@@ -1,0 +1,38 @@
+{
+  "name": "Spot The Dog",
+  "short_name": "Spot The Dog",
+  "theme_color": "#719e40",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "http://localhost:1234/spotTheDog/app/",
+  "icons": [
+    {
+    "src": "images/icons/apple-icon-72x72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+    },
+    {
+    "src": "images/icons/apple-icon-120x120.png",
+    "sizes": "120x120",
+    "type": "image/png"
+    },
+    {
+    "src": "images/icons/apple-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+    },
+    {
+    "src": "images/icons/apple-icon-152x152.png",
+    "sizes": "152x152",
+    "type": "image/png"
+    },
+    {
+    "src": "images/icons/apple-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }
+    ],
+  "splash_pages": null
+  }

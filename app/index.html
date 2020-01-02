@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://mayden.academy/wp-content/themes/academy3/images/favicon-32x32.png">
+    <script defer src="js/main.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Spot The Dog</title>
+    <script id="resultsTemplate" type="text/x-handlebars-template">
+    </script>
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('service-worker.js')
+                .then( () => {
+                    console.log('sw registered')
+                })
+        }
+    </script>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+    </a>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>    <a class="navbar-brand" href="#">
+        <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+    </a>
+</nav>
+
+<div class="container fadeIn">
+    <div class="row">
+
+        <div class="jumbotron col-md-12 col-lg-12">
+        </div>
+    </div>
+</div>
+</body>
+</html>
