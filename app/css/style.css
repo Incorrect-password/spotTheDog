@@ -16,16 +16,21 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #323337;
+  background-color: #27262b;
 
 }
 
 h1 {
-  color: #ffffff;
+  color: #e4d6cc;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 3rem;
+  opacity: 1;
 }
 
+div.titleHome {
+ background-color: #27262b;
+  opacity: 0.75;
+}
 
 
 
