@@ -9,30 +9,34 @@
   "start_url": "http://localhost:1234/spotTheDog/app/",
   "icons": [
     {
-    "src": "images/icons/apple-icon-72x72.png",
-    "sizes": "72x72",
-    "type": "image/png"
+    "src": "images/icons/spot-icon-16x16.ico",
+    "sizes": "16x16",
+    "type": "image/ico"
+    }, 25{
+    "src": "images/icons/spot-icon-48x48.ico",
+    "sizes": "48x48",
+    "type": "image/ico"
     },
     {
-    "src": "images/icons/apple-icon-120x120.png",
-    "sizes": "120x120",
-    "type": "image/png"
+    "src": "images/icons/spot-icon-64x64.ico",
+    "sizes": "64x64",
+    "type": "image/ico"
     },
     {
-    "src": "images/icons/apple-icon-144x144.png",
-    "sizes": "144x144",
-    "type": "image/png"
+    "src": "images/icons/spot-icon-128x128.ico",
+    "sizes": "128x128",
+    "type": "image/ico"
     },
     {
-    "src": "images/icons/apple-icon-152x152.png",
-    "sizes": "152x152",
-    "type": "image/png"
-    },
-    {
-    "src": "images/icons/apple-icon-192x192.png",
+    "src": "images/icons/spot-icon-192x192.ico",
     "sizes": "192x192",
-    "type": "image/png"
+    "type": "image/ico"
+    },
+    {
+      "src": "images/icons/spot-icon-256x256.ico",
+      "sizes": "256x256",
+      "type": "image/ico"
     }
-    ],
+  ],
   "splash_pages": null
   }
