@@ -12,7 +12,8 @@
     "src": "images/icons/spot-icon-16x16.ico",
     "sizes": "16x16",
     "type": "image/ico"
-    }, 25{
+    },
+    {
     "src": "images/icons/spot-icon-48x48.ico",
     "sizes": "48x48",
     "type": "image/ico"
