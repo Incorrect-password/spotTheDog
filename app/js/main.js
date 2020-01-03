@@ -13,3 +13,17 @@ db.onerror = function(event) {
     // requests!
     console.error("Database error: " + event.target.errorCode);
 };
+
+
+
+
+// dogData =
+// json.stringify()
+//
+// localforage.setItem('dogBreeds', '../dogData.json').then(function (value) {
+//     // Do other things once the value has been saved.
+//     console.log(value);
+// }).catch(function(err) {
+//     // This code runs if there were any errors
+//     console.log(err);
+// });
