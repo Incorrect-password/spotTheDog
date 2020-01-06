@@ -14,7 +14,11 @@
     <script defer src="js/main.js"></script>
     <title>Spot The Dog</title>
     <script id="resultsTemplate" type="text/x-handlebars-template">
-        <div id="list">{{allBreedsArray.id}}</div>
+        <div id="tile">{{allBreedsArray.id}}
+            <a href="{{url}}"><img src="{{image}}" alt="pic of the breed of dog" class="tileImage"></a>
+            <a href="{{url}}" class="tileName">{{name}}</a>
+            <button>I seen't it</button>
+        </div>
 <!--        <ul class="dogList">-->
 <!--            {{#each dogBreeds}}-->
 <!--                {{@index.id}}-->
@@ -49,7 +53,8 @@
         <h1 id="title">Spot the dog</h1>
     </div>
 
-    <div class="row justify-content-center" id="dogList">
+    <div class="row justify-content-center" >
+        <div id="dogList"></div>
 
     </div>
 </div>

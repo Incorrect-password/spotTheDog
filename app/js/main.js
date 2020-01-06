@@ -3117,8 +3117,11 @@ var dogBreeds =
     ];
 
 populateDogDB();
-allBreedsArray = veiwAllDogsInDB();
-// console.log(allBreedsArray);
+// allBreedsArray = getAllDogsInDB();
+// allBreedsArray.forEach(function(object) {
+//     console.log(object.id)
+// });
+viewBreed(24)
 function populateDogDB() {
     dogBreeds.forEach(function (breed) {
         breedID = breed.id.toString();
@@ -3130,20 +3133,32 @@ function populateDogDB() {
     })
 }
 
-function veiwAllDogsInDB(breeds) {
+function getAllDogsInDB(breeds) {
     breeds = [];
     dogBreeds.forEach(function (breed) {
         breedID = breed.id.toString();
 
-        localforage.getItem(breedID).then(function (value) {
+        localforage.getItem(breedID).then(function(value) {
            breeds.push(value);
         }).catch(function (err) {
 
             console.log(err);
         })
     })
-    console.log(breeds)
     return breeds;
+}
+
+function viewBreed(breedID) {
+    breedID = breedID.toString()
+    localforage.getItem(breedID).then(function(breedObject) {
+        let source = document.querySelector('#resultsTemplate').innerHTML
+
+        let template = Handlebars.compile(source)
+
+        let html = template(breedObject);
+
+        document.querySelector('#dogList').innerHTML += html
+    })
 }
 // let source = document.querySelector('#resultsTemplate').innerHTML
 //
