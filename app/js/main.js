@@ -154,7 +154,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/017g06-en.pdf"
         },
         {
-            "id": 19,
+            "id": 18,
             "name": "BRIQUET GRIFFON VENDEEN",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -163,7 +163,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/019g06-en.pdf"
         },
         {
-            "id": 20,
+            "id": 19,
             "name": "ARIEGEOIS",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -172,7 +172,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/020g06-en.pdf"
         },
         {
-            "id": 21,
+            "id": 20,
             "name": "GASCON SAINTONGEOIS",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -181,7 +181,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/021g06-en.pdf"
         },
         {
-            "id": 22,
+            "id": 21,
             "name": "GREAT GASCONY BLUE",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -190,7 +190,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/022g06-en.pdf"
         },
         {
-            "id": 24,
+            "id": 22,
             "name": "POITEVIN",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -199,7 +199,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/024g06-en.pdf"
         },
         {
-            "id": 25,
+            "id": 23,
             "name": "BILLY",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -208,7 +208,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/025g06-en.pdf"
         },
         {
-            "id": 28,
+            "id": 24,
             "name": "ARTOIS HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -217,7 +217,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/028g06-en.pdf"
         },
         {
-            "id": 30,
+            "id": 25,
             "name": "PORCELAINE",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -226,7 +226,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/030g06-en.pdf"
         },
         {
-            "id": 31,
+            "id": 26,
             "name": "SMALL BLUE GASCONY",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -235,7 +235,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/031g06-en.pdf"
         },
         {
-            "id": 32,
+            "id": 27,
             "name": "BLUE GASCONY GRIFFON",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -244,7 +244,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/032g06-en.pdf"
         },
         {
-            "id": 33,
+            "id": 28,
             "name": "GRAND BASSET GRIFFON VENDEEN",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -253,7 +253,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/033g06-en.pdf"
         },
         {
-            "id": 34,
+            "id": 29,
             "name": "NORMAN ARTESIEN BASSET",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -262,7 +262,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/034g06-en.pdf"
         },
         {
-            "id": 35,
+            "id": 30,
             "name": "BLUE GASCONY BASSET",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -271,7 +271,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/035g06-en.pdf"
         },
         {
-            "id": 36,
+            "id": 31,
             "name": "BASSET FAUVE DE BRETAGNE",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -280,7 +280,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/036g06-en.pdf"
         },
         {
-            "id": 37,
+            "id": 32,
             "name": "PORTUGUESE WATER DOG",
             "section": "Water Dogs",
             "country": "PORTUGAL",
@@ -289,7 +289,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/037g08-en.pdf"
         },
         {
-            "id": 38,
+            "id": 33,
             "name": "WELSH CORGI (CARDIGAN)",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -298,7 +298,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/038g01-en.pdf"
         },
         {
-            "id": 39,
+            "id": 34,
             "name": "WELSH CORGI (PEMBROKE)",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -307,7 +307,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/039g01-en.pdf"
         },
         {
-            "id": 40,
+            "id": 35,
             "name": "IRISH SOFT COATED WHEATEN TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "IRELAND",
@@ -316,7 +316,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/040g03-en.pdf"
         },
         {
-            "id": 41,
+            "id": 36,
             "name": "YUGOSLAVIAN SHEPHERD DOG - SHARPLANINA",
             "section": "Molossian type",
             "country": "MACEDONIA, SERBIA",
@@ -325,7 +325,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/041g02-en.pdf"
         },
         {
-            "id": 42,
+            "id": 37,
             "name": "JÄMTHUND",
             "section": "Nordic Hunting Dogs",
             "country": "SWEDEN",
@@ -334,7 +334,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/042g05-en.pdf"
         },
         {
-            "id": 43,
+            "id": 38,
             "name": "BASENJI",
             "section": "Primitive type",
             "country": "CENTRAL AFRICA",
@@ -343,7 +343,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/043g05-en.pdf"
         },
         {
-            "id": 44,
+            "id": 39,
             "name": "BERGER DE BEAUCE",
             "section": "Sheepdogs",
             "country": "FRANCE",
@@ -352,7 +352,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/044g01-en.pdf"
         },
         {
-            "id": 45,
+            "id": 40,
             "name": "BERNESE MOUNTAIN DOG",
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
@@ -361,7 +361,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/045g02-en.pdf"
         },
         {
-            "id": 46,
+            "id": 41,
             "name": "APPENZELL CATTLE DOG",
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
@@ -370,7 +370,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/046g02-en.pdf"
         },
         {
-            "id": 47,
+            "id": 42,
             "name": "ENTLEBUCH CATTLE DOG",
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
@@ -379,7 +379,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/047g02-en.pdf"
         },
         {
-            "id": 48,
+            "id": 43,
             "name": "KARELIAN BEAR DOG",
             "section": "Nordic Hunting Dogs",
             "country": "FINLAND",
@@ -388,7 +388,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/048g05-en.pdf"
         },
         {
-            "id": 49,
+            "id": 44,
             "name": "FINNISH SPITZ",
             "section": "Nordic Hunting Dogs",
             "country": "FINLAND",
@@ -397,7 +397,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/049g05-en.pdf"
         },
         {
-            "id": 50,
+            "id": 45,
             "name": "NEWFOUNDLAND",
             "section": "Molossian type",
             "country": "CANADA",
@@ -406,7 +406,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/050g02-en.pdf"
         },
         {
-            "id": 51,
+            "id": 46,
             "name": "FINNISH HOUND",
             "section": "Scent hounds",
             "country": "FINLAND",
@@ -415,7 +415,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/051g06-en.pdf"
         },
         {
-            "id": 52,
+            "id": 47,
             "name": "POLISH HOUND",
             "section": "Scent hounds",
             "country": "POLAND",
@@ -424,7 +424,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/052g06-en.pdf"
         },
         {
-            "id": 53,
+            "id": 48,
             "name": "KOMONDOR",
             "section": "Sheepdogs",
             "country": "HUNGARY",
@@ -433,7 +433,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/053g01-en.pdf"
         },
         {
-            "id": 54,
+            "id": 49,
             "name": "KUVASZ",
             "section": "Sheepdogs",
             "country": "HUNGARY",
@@ -442,7 +442,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/054g01-en.pdf"
         },
         {
-            "id": 55,
+            "id": 50,
             "name": "PULI",
             "section": "Sheepdogs",
             "country": "HUNGARY",
@@ -451,7 +451,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/055g01-en.pdf"
         },
         {
-            "id": 56,
+            "id": 51,
             "name": "PUMI",
             "section": "Sheepdogs",
             "country": "HUNGARY",
@@ -460,7 +460,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/056g01-en.pdf"
         },
         {
-            "id": 57,
+            "id": 52,
             "name": "HUNGARIAN SHORT-HAIRED POINTER (VIZSLA)",
             "section": "Continental Pointing Dogs",
             "country": "HUNGARY",
@@ -469,7 +469,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/057g07-en.pdf"
         },
         {
-            "id": 58,
+            "id": 53,
             "name": "GREAT SWISS MOUNTAIN DOG",
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
@@ -478,7 +478,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/058g02-en.pdf"
         },
         {
-            "id": 59,
+            "id": 54,
             "name": "SWISS HOUND",
             "section": "Scent hounds",
             "country": "SWITZERLAND",
@@ -487,7 +487,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/059g06-en.pdf"
         },
         {
-            "id": 60,
+            "id": 55,
             "name": "SMALL SWISS HOUND",
             "section": "Scent hounds",
             "country": "SWITZERLAND",
@@ -496,7 +496,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/060g06-en.pdf"
         },
         {
-            "id": 61,
+            "id": 56,
             "name": "ST. BERNARD",
             "section": "Molossian type",
             "country": "SWITZERLAND",
@@ -505,7 +505,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/061g02-en.pdf"
         },
         {
-            "id": 62,
+            "id": 57,
             "name": "COARSE-HAIRED STYRIAN HOUND",
             "section": "Scent hounds",
             "country": "AUSTRIA",
@@ -514,7 +514,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/062g06-en.pdf"
         },
         {
-            "id": 63,
+            "id": 58,
             "name": "AUSTRIAN BLACK AND TAN HOUND",
             "section": "Scent hounds",
             "country": "AUSTRIA",
@@ -523,7 +523,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/063g06-en.pdf"
         },
         {
-            "id": 64,
+            "id": 59,
             "name": "AUSTRIAN  PINSCHER",
             "section": "Pinscher and Schnauzer type",
             "country": "AUSTRIA",
@@ -532,7 +532,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/064g02-en.pdf"
         },
         {
-            "id": 65,
+            "id": 60,
             "name": "MALTESE",
             "section": "Bichons and related breeds",
             "country": "CENTRAL MEDITERRANEAN BASIN",
@@ -541,7 +541,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/065g09-en.pdf"
         },
         {
-            "id": 66,
+            "id": 61,
             "name": "FAWN BRITTANY GRIFFON",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -550,7 +550,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/066g06-en.pdf"
         },
         {
-            "id": 67,
+            "id": 62,
             "name": "PETIT BASSET GRIFFON VENDEEN",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -559,7 +559,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/067g06-en.pdf"
         },
         {
-            "id": 68,
+            "id": 63,
             "name": "TYROLEAN HOUND",
             "section": "Scent hounds",
             "country": "AUSTRIA",
@@ -568,7 +568,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/068g06-en.pdf"
         },
         {
-            "id": 70,
+            "id": 64,
             "name": "LAKELAND TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
@@ -577,7 +577,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/070g03-en.pdf"
         },
         {
-            "id": 71,
+            "id": 65,
             "name": "MANCHESTER TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
@@ -586,7 +586,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/071g03-en.pdf"
         },
         {
-            "id": 72,
+            "id": 66,
             "name": "NORWICH TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -595,7 +595,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/072g03-en.pdf"
         },
         {
-            "id": 73,
+            "id": 67,
             "name": "SCOTTISH TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -604,7 +604,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/073g03-en.pdf"
         },
         {
-            "id": 74,
+            "id": 68,
             "name": "SEALYHAM TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -613,7 +613,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/074g03-en.pdf"
         },
         {
-            "id": 75,
+            "id": 69,
             "name": "SKYE TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -622,7 +622,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/075g03-en.pdf"
         },
         {
-            "id": 76,
+            "id": 70,
             "name": "STAFFORDSHIRE BULL TERRIER",
             "section": "Bull type Terriers",
             "country": "GREAT BRITAIN",
@@ -631,7 +631,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/076g03-en.pdf"
         },
         {
-            "id": 77,
+            "id": 71,
             "name": "CONTINENTAL TOY SPANIEL",
             "section": "Continental Toy Spaniel and Russian Toy",
             "country": "BELGIUM, FRANCE",
@@ -640,7 +640,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/077g09-en.pdf"
         },
         {
-            "id": 78,
+            "id": 72,
             "name": "WELSH TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
@@ -649,7 +649,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/078g03-en.pdf"
         },
         {
-            "id": 80,
+            "id": 73,
             "name": "GRIFFON BRUXELLOIS",
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
@@ -658,7 +658,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/080g09-en.pdf"
         },
         {
-            "id": 81,
+            "id": 74,
             "name": "GRIFFON BELGE",
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
@@ -667,7 +667,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/081g09-en.pdf"
         },
         {
-            "id": 82,
+            "id": 75,
             "name": "PETIT BRABANÇON",
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
@@ -676,7 +676,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/082g09-en.pdf"
         },
         {
-            "id": 83,
+            "id": 76,
             "name": "SCHIPPERKE",
             "section": "Sheepdogs",
             "country": "BELGIUM",
@@ -685,7 +685,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/083g01-en.pdf"
         },
         {
-            "id": 84,
+            "id": 77,
             "name": "BLOODHOUND",
             "section": "Scent hounds",
             "country": "BELGIUM",
@@ -694,7 +694,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/084g06-en.pdf"
         },
         {
-            "id": 85,
+            "id": 78,
             "name": "WEST HIGHLAND WHITE TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -703,7 +703,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/085g03-en.pdf"
         },
         {
-            "id": 86,
+            "id": 79,
             "name": "YORKSHIRE TERRIER",
             "section": "Toy Terriers",
             "country": "GREAT BRITAIN",
@@ -712,7 +712,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/086g03-en.pdf"
         },
         {
-            "id": 87,
+            "id": 80,
             "name": "CATALAN SHEEPDOG",
             "section": "Sheepdogs",
             "country": "SPAIN",
@@ -721,7 +721,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/087g01-en.pdf"
         },
         {
-            "id": 88,
+            "id": 81,
             "name": "SHETLAND SHEEPDOG",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -730,7 +730,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/088g01-en.pdf"
         },
         {
-            "id": 89,
+            "id": 82,
             "name": "IBIZAN PODENCO",
             "section": "Primitive type - Hunting Dogs",
             "country": "SPAIN",
@@ -739,7 +739,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/089g05-en.pdf"
         },
         {
-            "id": 90,
+            "id": 83,
             "name": "BURGOS POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "SPAIN",
@@ -748,7 +748,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/090g07-en.pdf"
         },
         {
-            "id": 91,
+            "id": 84,
             "name": "SPANISH MASTIFF",
             "section": "Molossian type",
             "country": "SPAIN",
@@ -757,7 +757,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/091g02-en.pdf"
         },
         {
-            "id": 92,
+            "id": 85,
             "name": "PYRENEAN MASTIFF",
             "section": "Molossian type",
             "country": "SPAIN",
@@ -766,7 +766,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/092g02-en.pdf"
         },
         {
-            "id": 93,
+            "id": 86,
             "name": "PORTUGUESE SHEEPDOG",
             "section": "Sheepdogs",
             "country": "PORTUGAL",
@@ -775,7 +775,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/093g01-en.pdf"
         },
         {
-            "id": 94,
+            "id": 87,
             "name": "PORTUGUESE WARREN HOUND-PORTUGUESE PODENGO",
             "section": "Primitive type - Hunting Dogs",
             "country": "PORTUGAL",
@@ -784,7 +784,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/094g05-en.pdf"
         },
         {
-            "id": 95,
+            "id": 88,
             "name": "BRITTANY SPANIEL",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -793,7 +793,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/095g07-en.pdf"
         },
         {
-            "id": 96,
+            "id": 89,
             "name": "RAFEIRO OF ALENTEJO",
             "section": "Molossian type",
             "country": "PORTUGAL",
@@ -802,7 +802,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/096g02-en.pdf"
         },
         {
-            "id": 97,
+            "id": 90,
             "name": "GERMAN SPITZ",
             "section": "European Spitz",
             "country": "GERMANY",
@@ -811,7 +811,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/097g05-en.pdf"
         },
         {
-            "id": 98,
+            "id": 91,
             "name": "GERMAN WIRE- HAIRED POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -820,7 +820,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/098g07-en.pdf"
         },
         {
-            "id": 99,
+            "id": 92,
             "name": "WEIMARANER",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -829,7 +829,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/099g07-en.pdf"
         },
         {
-            "id": 100,
+            "id": 93,
             "name": "WESTPHALIAN DACHSBRACKE",
             "section": "Scent hounds",
             "country": "GERMANY",
@@ -838,7 +838,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/100g06-en.pdf"
         },
         {
-            "id": 101,
+            "id": 94,
             "name": "FRENCH BULLDOG",
             "section": "Small Molossian type Dogs",
             "country": "FRANCE",
@@ -847,7 +847,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/101g09-en.pdf"
         },
         {
-            "id": 102,
+            "id": 94,
             "name": "KLEINER MÜNSTERLÄNDER",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -856,7 +856,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/102g07-en.pdf"
         },
         {
-            "id": 103,
+            "id": 95,
             "name": "GERMAN HUNTING TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "GERMANY",
@@ -865,7 +865,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/103g03-en.pdf"
         },
         {
-            "id": 104,
+            "id": 96,
             "name": "GERMAN SPANIEL",
             "section": "Flushing Dogs",
             "country": "GERMANY",
@@ -874,7 +874,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/104g08-en.pdf"
         },
         {
-            "id": 105,
+            "id": 97,
             "name": "FRENCH WATER DOG",
             "section": "Water Dogs",
             "country": "FRANCE",
@@ -883,7 +883,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/105g08-en.pdf"
         },
         {
-            "id": 106,
+            "id": 98,
             "name": "BLUE PICARDY SPANIEL",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -892,7 +892,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/106g07-en.pdf"
         },
         {
-            "id": 107,
+            "id": 99,
             "name": "WIRE-HAIRED POINTING GRIFFON KORTHALS",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -901,7 +901,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/107g07-en.pdf"
         },
         {
-            "id": 108,
+            "id": 100,
             "name": "PICARDY SPANIEL",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -910,7 +910,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/108g07-en.pdf"
         },
         {
-            "id": 109,
+            "id": 101,
             "name": "CLUMBER SPANIEL",
             "section": "Flushing Dogs",
             "country": "GREAT BRITAIN",
@@ -919,7 +919,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/109g08-en.pdf"
         },
         {
-            "id": 110,
+            "id": 102,
             "name": "CURLY COATED RETRIEVER",
             "section": "Retrievers",
             "country": "GREAT BRITAIN",
@@ -928,7 +928,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/110g08-en.pdf"
         },
         {
-            "id": 111,
+            "id": 103,
             "name": "GOLDEN RETRIEVER",
             "section": "Retrievers",
             "country": "GREAT BRITAIN",
@@ -937,7 +937,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/111g08-en.pdf"
         },
         {
-            "id": 113,
+            "id": 104,
             "name": "BRIARD",
             "section": "Sheepdogs",
             "country": "FRANCE",
@@ -946,7 +946,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/113g01-en.pdf"
         },
         {
-            "id": 114,
+            "id": 105,
             "name": "PONT-AUDEMER SPANIEL",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -955,7 +955,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/114g07-en.pdf"
         },
         {
-            "id": 115,
+            "id": 106,
             "name": "SAINT GERMAIN POINTER",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -964,7 +964,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/115g07-en.pdf"
         },
         {
-            "id": 116,
+            "id": 107,
             "name": "DOGUE DE BORDEAUX",
             "section": "Molossian type",
             "country": "FRANCE",
@@ -973,7 +973,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/116g02-en.pdf"
         },
         {
-            "id": 117,
+            "id": 108,
             "name": "DEUTSCH LANGHAAR",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -982,7 +982,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/117g07-en.pdf"
         },
         {
-            "id": 118,
+            "id": 109,
             "name": "LARGE MUNSTERLANDER",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -991,7 +991,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/118g07-en.pdf"
         },
         {
-            "id": 119,
+            "id": 110,
             "name": "GERMAN SHORT- HAIRED POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -1000,7 +1000,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/119g07-en.pdf"
         },
         {
-            "id": 120,
+            "id": 111,
             "name": "IRISH RED SETTER",
             "section": "British and Irish Pointers and Setters",
             "country": "IRELAND",
@@ -1009,7 +1009,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/120g07-en.pdf"
         },
         {
-            "id": 121,
+            "id": 112,
             "name": "FLAT COATED RETRIEVER",
             "section": "Retrievers",
             "country": "GREAT BRITAIN",
@@ -1018,7 +1018,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/121g08-en.pdf"
         },
         {
-            "id": 122,
+            "id": 113,
             "name": "LABRADOR RETRIEVER",
             "section": "Retrievers",
             "country": "GREAT BRITAIN",
@@ -1027,7 +1027,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/122g08-en.pdf"
         },
         {
-            "id": 123,
+            "id": 114,
             "name": "FIELD SPANIEL",
             "section": "Flushing Dogs",
             "country": "GREAT BRITAIN",
@@ -1036,7 +1036,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/123g08-en.pdf"
         },
         {
-            "id": 124,
+            "id": 115,
             "name": "IRISH WATER SPANIEL",
             "section": "Water Dogs",
             "country": "IRELAND",
@@ -1045,7 +1045,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/124g08-en.pdf"
         },
         {
-            "id": 125,
+            "id": 116,
             "name": "ENGLISH SPRINGER SPANIEL",
             "section": "Flushing Dogs",
             "country": "GREAT BRITAIN",
@@ -1054,7 +1054,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/125g08-en.pdf"
         },
         {
-            "id": 126,
+            "id": 117,
             "name": "WELSH SPRINGER SPANIEL",
             "section": "Flushing Dogs",
             "country": "GREAT BRITAIN",
@@ -1063,7 +1063,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/126g08-en.pdf"
         },
         {
-            "id": 127,
+            "id": 118,
             "name": "SUSSEX SPANIEL",
             "section": "Flushing Dogs",
             "country": "GREAT BRITAIN",
@@ -1072,7 +1072,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/127g08-en.pdf"
         },
         {
-            "id": 128,
+            "id": 119,
             "name": "KING CHARLES SPANIEL",
             "section": "English Toy Spaniels",
             "country": "GREAT BRITAIN",
@@ -1081,7 +1081,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/128g09-en.pdf"
         },
         {
-            "id": 129,
+            "id": 120,
             "name": "SMÅLANDSSTÖVARE",
             "section": "Scent hounds",
             "country": "SWEDEN",
@@ -1090,7 +1090,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/129g06-en.pdf"
         },
         {
-            "id": 130,
+            "id": 121,
             "name": "DREVER",
             "section": "Scent hounds",
             "country": "SWEDEN",
@@ -1099,7 +1099,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/130g06-en.pdf"
         },
         {
-            "id": 131,
+            "id": 122,
             "name": "SCHILLERSTÖVARE",
             "section": "Scent hounds",
             "country": "SWEDEN",
@@ -1108,7 +1108,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/131g06-en.pdf"
         },
         {
-            "id": 132,
+            "id": 123,
             "name": "HAMILTONSTÖVARE",
             "section": "Scent hounds",
             "country": "SWEDEN",
@@ -1117,7 +1117,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/132g06-en.pdf"
         },
         {
-            "id": 133,
+            "id": 124,
             "name": "FRENCH POINTING DOG - GASCOGNE TYPE",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -1126,7 +1126,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/133g07-en.pdf"
         },
         {
-            "id": 134,
+            "id": 125,
             "name": "FRENCH POINTING DOG - PYRENEAN TYPE",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -1135,7 +1135,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/134g07-en.pdf"
         },
         {
-            "id": 135,
+            "id": 126,
             "name": "SWEDISH LAPPHUND",
             "section": "Nordic Watchdogs and Herders",
             "country": "SWEDEN",
@@ -1144,7 +1144,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/135g05-en.pdf"
         },
         {
-            "id": 136,
+            "id": 127,
             "name": "CAVALIER KING CHARLES SPANIEL",
             "section": "English Toy Spaniels",
             "country": "GREAT BRITAIN",
@@ -1153,7 +1153,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/136g09-en.pdf"
         },
         {
-            "id": 137,
+            "id": 128,
             "name": "PYRENEAN MOUNTAIN DOG",
             "section": "Molossian type",
             "country": "FRANCE",
@@ -1162,7 +1162,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/137g02-en.pdf"
         },
         {
-            "id": 138,
+            "id": 129,
             "name": "PYRENEAN SHEEPDOG - SMOOTH FACED",
             "section": "Sheepdogs",
             "country": "FRANCE",
@@ -1171,7 +1171,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/138g01-en.pdf"
         },
         {
-            "id": 139,
+            "id": 130,
             "name": "IRISH TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "IRELAND",
@@ -1180,7 +1180,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/139g03-en.pdf"
         },
         {
-            "id": 140,
+            "id": 131,
             "name": "BOSTON TERRIER",
             "section": "Small Molossian type Dogs",
             "country": "UNITED STATES OF AMERICA",
@@ -1189,7 +1189,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/140g09-en.pdf"
         },
         {
-            "id": 141,
+            "id": 132,
             "name": "LONG-HAIRED PYRENEAN SHEEPDOG",
             "section": "Sheepdogs",
             "country": "FRANCE",
@@ -1198,7 +1198,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/141g01-en.pdf"
         },
         {
-            "id": 142,
+            "id": 133,
             "name": "SLOVAKIAN CHUVACH",
             "section": "Sheepdogs",
             "country": "SLOVAKIA",
@@ -1207,7 +1207,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/142g01-en.pdf"
         },
         {
-            "id": 143,
+            "id": 134,
             "name": "DOBERMANN",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1216,7 +1216,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/143g02-en.pdf"
         },
         {
-            "id": 144,
+            "id": 135,
             "name": "BOXER",
             "section": "Molossian type",
             "country": "GERMANY",
@@ -1225,7 +1225,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/144g02-en.pdf"
         },
         {
-            "id": 145,
+            "id": 136,
             "name": "LEONBERGER",
             "section": "Molossian type",
             "country": "GERMANY",
@@ -1234,7 +1234,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/145g02-en.pdf"
         },
         {
-            "id": 146,
+            "id": 137,
             "name": "RHODESIAN RIDGEBACK",
             "section": "Related breeds",
             "country": "SOUTH AFRICA",
@@ -1243,7 +1243,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/146g06-en.pdf"
         },
         {
-            "id": 147,
+            "id": 138,
             "name": "ROTTWEILER",
             "section": "Molossian type",
             "country": "GERMANY",
@@ -1252,7 +1252,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/147g02-en.pdf"
         },
         {
-            "id": 148,
+            "id": 139,
             "name": "DACHSHUND",
             "section": "",
             "country": "GERMANY",
@@ -1261,7 +1261,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/148g04-en.pdf"
         },
         {
-            "id": 149,
+            "id": 140,
             "name": "BULLDOG",
             "section": "Molossian type",
             "country": "GREAT BRITAIN",
@@ -1270,7 +1270,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/149g02-en.pdf"
         },
         {
-            "id": 150,
+            "id": 141,
             "name": "SERBIAN HOUND",
             "section": "Scent hounds",
             "country": "SERBIA",
@@ -1279,7 +1279,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/150g06-en.pdf"
         },
         {
-            "id": 151,
+            "id": 142,
             "name": "ISTRIAN SHORT-HAIRED HOUND",
             "section": "Scent hounds",
             "country": "CROATIA",
@@ -1288,7 +1288,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/151g06-en.pdf"
         },
         {
-            "id": 152,
+            "id": 143,
             "name": "ISTRIAN WIRE-HAIRED HOUND",
             "section": "Scent hounds",
             "country": "CROATIA",
@@ -1297,7 +1297,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/152g06-en.pdf"
         },
         {
-            "id": 153,
+            "id": 144,
             "name": "DALMATIAN",
             "section": "Related breeds",
             "country": "CROATIA",
@@ -1306,7 +1306,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/153g06-en.pdf"
         },
         {
-            "id": 154,
+            "id": 145,
             "name": "POSAVATZ HOUND",
             "section": "Scent hounds",
             "country": "CROATIA",
@@ -1315,7 +1315,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/154g06-en.pdf"
         },
         {
-            "id": 155,
+            "id": 146,
             "name": "BOSNIAN BROKEN-HAIRED HOUND - CALLED BARAK",
             "section": "Scent hounds",
             "country": "BOSNIA AND HERZEGOVINA",
@@ -1324,7 +1324,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/155g06-en.pdf"
         },
         {
-            "id": 156,
+            "id": 147,
             "name": "COLLIE ROUGH",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -1333,7 +1333,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/156g01-en.pdf"
         },
         {
-            "id": 157,
+            "id": 148,
             "name": "BULLMASTIFF",
             "section": "Molossian type",
             "country": "GREAT BRITAIN",
@@ -1342,7 +1342,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/157g02-en.pdf"
         },
         {
-            "id": 158,
+            "id": 149,
             "name": "GREYHOUND",
             "section": "Short-haired Sighthounds",
             "country": "GREAT BRITAIN",
@@ -1351,7 +1351,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/158g10-en.pdf"
         },
         {
-            "id": 159,
+            "id": 150,
             "name": "ENGLISH FOXHOUND",
             "section": "Scent hounds",
             "country": "GREAT BRITAIN",
@@ -1360,7 +1360,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/159g06-en.pdf"
         },
         {
-            "id": 160,
+            "id": 151,
             "name": "IRISH WOLFHOUND",
             "section": "Rough-haired Sighthounds",
             "country": "IRELAND",
@@ -1369,7 +1369,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/160g10-en.pdf"
         },
         {
-            "id": 161,
+            "id": 152,
             "name": "BEAGLE",
             "section": "Scent hounds",
             "country": "GREAT BRITAIN",
@@ -1378,7 +1378,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/161g06-en.pdf"
         },
         {
-            "id": 162,
+            "id": 153,
             "name": "WHIPPET",
             "section": "Short-haired Sighthounds",
             "country": "GREAT BRITAIN",
@@ -1387,7 +1387,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/162g10-en.pdf"
         },
         {
-            "id": 163,
+            "id": 154,
             "name": "BASSET HOUND",
             "section": "Scent hounds",
             "country": "GREAT BRITAIN",
@@ -1396,7 +1396,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/163g06-en.pdf"
         },
         {
-            "id": 164,
+            "id": 155,
             "name": "DEERHOUND",
             "section": "Rough-haired Sighthounds",
             "country": "GREAT BRITAIN",
@@ -1405,7 +1405,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/164g10-en.pdf"
         },
         {
-            "id": 165,
+            "id": 156,
             "name": "ITALIAN SPINONE",
             "section": "Continental Pointing Dogs",
             "country": "ITALY",
@@ -1414,7 +1414,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/165g07-en.pdf"
         },
         {
-            "id": 166,
+            "id": 157,
             "name": "GERMAN SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "GERMANY",
@@ -1423,7 +1423,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/166g01-en.pdf"
         },
         {
-            "id": 167,
+            "id": 158,
             "name": "AMERICAN COCKER SPANIEL",
             "section": "Flushing Dogs",
             "country": "UNITED STATES OF AMERICA",
@@ -1432,7 +1432,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/167g08-en.pdf"
         },
         {
-            "id": 168,
+            "id": 159,
             "name": "DANDIE DINMONT TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -1441,7 +1441,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/168g03-en.pdf"
         },
         {
-            "id": 169,
+            "id": 160,
             "name": "FOX TERRIER (WIRE)",
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
@@ -1450,7 +1450,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/169g03-en.pdf"
         },
         {
-            "id": 170,
+            "id": 161,
             "name": "CASTRO LABOREIRO DOG",
             "section": "Molossian type",
             "country": "PORTUGAL",
@@ -1459,7 +1459,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/170g02-en.pdf"
         },
         {
-            "id": 171,
+            "id": 162,
             "name": "BOUVIER DES ARDENNES",
             "section": "Cattledogs (except Swiss Cattledogs)",
             "country": "BELGIUM",
@@ -1468,7 +1468,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/171g01-en.pdf"
         },
         {
-            "id": 172,
+            "id": 163,
             "name": "POODLE",
             "section": "Poodle",
             "country": "FRANCE",
@@ -1477,7 +1477,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/172g09-en.pdf"
         },
         {
-            "id": 173,
+            "id": 164,
             "name": "ESTRELA MOUNTAIN DOG",
             "section": "Molossian type",
             "country": "PORTUGAL",
@@ -1486,7 +1486,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/173g02-en.pdf"
         },
         {
-            "id": 175,
+            "id": 165,
             "name": "FRENCH SPANIEL",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -1495,7 +1495,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/175g07-en.pdf"
         },
         {
-            "id": 176,
+            "id": 166,
             "name": "PICARDY SHEEPDOG",
             "section": "Sheepdogs",
             "country": "FRANCE",
@@ -1504,7 +1504,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/176g01-en.pdf"
         },
         {
-            "id": 177,
+            "id": 167,
             "name": "ARIEGE POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -1513,7 +1513,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/177g07-en.pdf"
         },
         {
-            "id": 179,
+            "id": 168,
             "name": "BOURBONNAIS POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -1522,7 +1522,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/179g07-en.pdf"
         },
         {
-            "id": 180,
+            "id": 169,
             "name": "AUVERGNE POINTER",
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
@@ -1531,7 +1531,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/180g07-en.pdf"
         },
         {
-            "id": 181,
+            "id": 170,
             "name": "GIANT SCHNAUZER",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1540,7 +1540,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/181g02-en.pdf"
         },
         {
-            "id": 182,
+            "id": 171,
             "name": "SCHNAUZER",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1549,7 +1549,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/182g02-en.pdf"
         },
         {
-            "id": 183,
+            "id": 172,
             "name": "MINIATURE SCHNAUZER",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1558,7 +1558,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/183g02-en.pdf"
         },
         {
-            "id": 184,
+            "id": 173,
             "name": "GERMAN PINSCHER",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1567,7 +1567,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/184g02-en.pdf"
         },
         {
-            "id": 185,
+            "id": 174,
             "name": "MINIATURE PINSCHER",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1576,7 +1576,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/185g02-en.pdf"
         },
         {
-            "id": 186,
+            "id": 175,
             "name": "AFFENPINSCHER",
             "section": "Pinscher and Schnauzer type",
             "country": "GERMANY",
@@ -1585,7 +1585,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/186g02-en.pdf"
         },
         {
-            "id": 187,
+            "id": 176,
             "name": "PORTUGUESE POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "PORTUGAL",
@@ -1594,7 +1594,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/187g07-en.pdf"
         },
         {
-            "id": 188,
+            "id": 177,
             "name": "SLOUGHI",
             "section": "Short-haired Sighthounds",
             "country": "MOROCCO",
@@ -1603,7 +1603,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/188g10-en.pdf"
         },
         {
-            "id": 189,
+            "id": 178,
             "name": "FINNISH LAPPONIAN DOG",
             "section": "Nordic Watchdogs and Herders",
             "country": "FINLAND",
@@ -1612,7 +1612,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/189g05-en.pdf"
         },
         {
-            "id": 190,
+            "id": 179,
             "name": "HOVAWART",
             "section": "Molossian type",
             "country": "GERMANY",
@@ -1621,7 +1621,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/190g02-en.pdf"
         },
         {
-            "id": 191,
+            "id": 180,
             "name": "BOUVIER DES FLANDRES",
             "section": "Cattledogs (except Swiss Cattledogs)",
             "country": "BELGIUM, FRANCE",
@@ -1630,7 +1630,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/191g01-en.pdf"
         },
         {
-            "id": 192,
+            "id": 181,
             "name": "KROMFOHRLÄNDER",
             "section": "Kromfohrländer",
             "country": "GERMANY",
@@ -1639,7 +1639,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/192g09-en.pdf"
         },
         {
-            "id": 193,
+            "id": 182,
             "name": "BORZOI - RUSSIAN HUNTING SIGHTHOUND",
             "section": "Long-haired or fringed Sighthounds",
             "country": "RUSSIA",
@@ -1648,7 +1648,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/193g10-en.pdf"
         },
         {
-            "id": 194,
+            "id": 183,
             "name": "BERGAMASCO SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "ITALY",
@@ -1657,7 +1657,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/194g01-en.pdf"
         },
         {
-            "id": 195,
+            "id": 184,
             "name": "ITALIAN VOLPINO",
             "section": "European Spitz",
             "country": "ITALY",
@@ -1666,7 +1666,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/195g05-en.pdf"
         },
         {
-            "id": 196,
+            "id": 185,
             "name": "BOLOGNESE",
             "section": "Bichons and related breeds",
             "country": "ITALY",
@@ -1675,7 +1675,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/196g09-en.pdf"
         },
         {
-            "id": 197,
+            "id": 186,
             "name": "NEAPOLITAN MASTIFF",
             "section": "Molossian type",
             "country": "ITALY",
@@ -1684,7 +1684,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/197g02-en.pdf"
         },
         {
-            "id": 198,
+            "id": 187,
             "name": "ITALIAN ROUGH-HAIRED SEGUGIO",
             "section": "Scent hounds",
             "country": "ITALY",
@@ -1693,7 +1693,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/198g06-en.pdf"
         },
         {
-            "id": 199,
+            "id": 188,
             "name": "CIRNECO DELL'ETNA",
             "section": "Primitive type - Hunting Dogs",
             "country": "ITALY",
@@ -1702,7 +1702,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/199g05-en.pdf"
         },
         {
-            "id": 200,
+            "id": 189,
             "name": "ITALIAN SIGHTHOUND",
             "section": "Short-haired Sighthounds",
             "country": "ITALY",
@@ -1711,7 +1711,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/200g10-en.pdf"
         },
         {
-            "id": 201,
+            "id": 190,
             "name": "MAREMMA AND THE ABRUZZES SHEEPDOG",
             "section": "Sheepdogs",
             "country": "ITALY",
@@ -1720,7 +1720,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/201g01-en.pdf"
         },
         {
-            "id": 202,
+            "id": 191,
             "name": "ITALIAN POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "ITALY",
@@ -1729,7 +1729,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/202g07-en.pdf"
         },
         {
-            "id": 203,
+            "id": 192,
             "name": "NORWEGIAN HOUND",
             "section": "Scent hounds",
             "country": "NORWAY",
@@ -1738,7 +1738,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/203g06-en.pdf"
         },
         {
-            "id": 204,
+            "id": 193,
             "name": "SPANISH HOUND",
             "section": "Scent hounds",
             "country": "SPAIN",
@@ -1747,7 +1747,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/204g06-en.pdf"
         },
         {
-            "id": 205,
+            "id": 194,
             "name": "CHOW CHOW",
             "section": "Asian Spitz and related breeds",
             "country": "CHINA",
@@ -1756,7 +1756,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/205g05-en.pdf"
         },
         {
-            "id": 206,
+            "id": 195,
             "name": "JAPANESE CHIN",
             "section": "Japan Chin and Pekingese",
             "country": "JAPAN",
@@ -1765,7 +1765,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/206g09-en.pdf"
         },
         {
-            "id": 207,
+            "id": 196,
             "name": "PEKINGESE",
             "section": "Japan Chin and Pekingese",
             "country": "CHINA",
@@ -1774,7 +1774,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/207g09-en.pdf"
         },
         {
-            "id": 208,
+            "id": 197,
             "name": "SHIH TZU",
             "section": "Tibetan breeds",
             "country": "Tibet (China)",
@@ -1783,7 +1783,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/208g09-en.pdf"
         },
         {
-            "id": 209,
+            "id": 198,
             "name": "TIBETAN TERRIER",
             "section": "Tibetan breeds",
             "country": "Tibet (China)",
@@ -1792,7 +1792,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/209g09-en.pdf"
         },
         {
-            "id": 211,
+            "id": 199,
             "name": "CANADIAN ESKIMO DOG",
             "section": "Nordic Sledge Dogs",
             "country": "CANADA",
@@ -1801,7 +1801,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/211g05-en.pdf"
         },
         {
-            "id": 212,
+            "id": 200,
             "name": "SAMOYED",
             "section": "Nordic Sledge Dogs",
             "country": "NORTHERN RUSSIA, SIBERIA",
@@ -1810,7 +1810,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/212g05-en.pdf"
         },
         {
-            "id": 213,
+            "id": 201,
             "name": "HANOVERIAN SCENT HOUND",
             "section": "Leash (scent) Hounds",
             "country": "GERMANY",
@@ -1819,7 +1819,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/213g06-en.pdf"
         },
         {
-            "id": 214,
+            "id": 202,
             "name": "HELLENIC HOUND",
             "section": "Scent hounds",
             "country": "GREECE",
@@ -1828,7 +1828,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/214g06-en.pdf"
         },
         {
-            "id": 215,
+            "id": 203,
             "name": "BICHON FRISE",
             "section": "Bichons and related breeds",
             "country": "BELGIUM, FRANCE",
@@ -1837,7 +1837,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/215g09-en.pdf"
         },
         {
-            "id": 216,
+            "id": 204,
             "name": "PUDELPOINTER",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -1846,7 +1846,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/216g07-en.pdf"
         },
         {
-            "id": 217,
+            "id": 205,
             "name": "BAVARIAN MOUNTAIN SCENT HOUND",
             "section": "Leash (scent) Hounds",
             "country": "GERMANY",
@@ -1855,7 +1855,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/217g06-en.pdf"
         },
         {
-            "id": 218,
+            "id": 206,
             "name": "CHIHUAHUA",
             "section": "Chihuahueno",
             "country": "MEXICO",
@@ -1864,7 +1864,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/218g09-en.pdf"
         },
         {
-            "id": 219,
+            "id": 207,
             "name": "FRENCH TRICOLOUR HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -1873,7 +1873,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/219g06-en.pdf"
         },
         {
-            "id": 220,
+            "id": 208,
             "name": "FRENCH WHITE & BLACK HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -1882,7 +1882,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/220g06-en.pdf"
         },
         {
-            "id": 221,
+            "id": 209,
             "name": "FRISIAN WATER DOG",
             "section": "Water Dogs",
             "country": "THE NETHERLANDS",
@@ -1891,7 +1891,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/221g08-en.pdf"
         },
         {
-            "id": 222,
+            "id": 210,
             "name": "STABIJHOUN",
             "section": "Continental Pointing Dogs",
             "country": "THE NETHERLANDS",
@@ -1900,7 +1900,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/222g07-en.pdf"
         },
         {
-            "id": 223,
+            "id": 211,
             "name": "DUTCH SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "THE NETHERLANDS",
@@ -1909,7 +1909,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/223g01-en.pdf"
         },
         {
-            "id": 224,
+            "id": 212,
             "name": "DRENTSCHE PARTRIDGE DOG",
             "section": "Continental Pointing Dogs",
             "country": "THE NETHERLANDS",
@@ -1918,7 +1918,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/224g07-en.pdf"
         },
         {
-            "id": 225,
+            "id": 213,
             "name": "FILA BRASILEIRO",
             "section": "Molossian type",
             "country": "BRAZIL",
@@ -1927,7 +1927,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/225g02-en.pdf"
         },
         {
-            "id": 226,
+            "id": 214,
             "name": "LANDSEER (EUROPEAN CONTINENTAL TYPE)",
             "section": "Molossian type",
             "country": "GERMANY, SWITZERLAND",
@@ -1936,7 +1936,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/226g02-en.pdf"
         },
         {
-            "id": 227,
+            "id": 215,
             "name": "LHASA APSO",
             "section": "Tibetan breeds",
             "country": "Tibet (China)",
@@ -1945,7 +1945,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/227g09-en.pdf"
         },
         {
-            "id": 228,
+            "id": 216,
             "name": "AFGHAN HOUND",
             "section": "Long-haired or fringed Sighthounds",
             "country": "AFGHANISTAN",
@@ -1954,7 +1954,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/228g10-en.pdf"
         },
         {
-            "id": 229,
+            "id": 217,
             "name": "SERBIAN TRICOLOUR HOUND",
             "section": "Scent hounds",
             "country": "SERBIA",
@@ -1963,7 +1963,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/229g06-en.pdf"
         },
         {
-            "id": 230,
+            "id": 218,
             "name": "TIBETAN MASTIFF",
             "section": "Molossian type",
             "country": "Tibet (China)",
@@ -1972,7 +1972,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/230g02-en.pdf"
         },
         {
-            "id": 231,
+            "id": 219,
             "name": "TIBETAN SPANIEL",
             "section": "Tibetan breeds",
             "country": "Tibet (China)",
@@ -1981,7 +1981,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/231g09-en.pdf"
         },
         {
-            "id": 232,
+            "id": 220,
             "name": "DEUTSCH STICHELHAAR",
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
@@ -1990,7 +1990,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/232g07-en.pdf"
         },
         {
-            "id": 233,
+            "id": 221,
             "name": "LITTLE LION DOG",
             "section": "Bichons and related breeds",
             "country": "FRANCE",
@@ -1999,7 +1999,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/233g09-en.pdf"
         },
         {
-            "id": 234,
+            "id": 222,
             "name": "XOLOITZCUINTLE",
             "section": "Primitive type",
             "country": "MEXICO",
@@ -2008,7 +2008,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/234g05-en.pdf"
         },
         {
-            "id": 235,
+            "id": 223,
             "name": "GREAT DANE",
             "section": "Molossian type",
             "country": "GERMANY",
@@ -2017,7 +2017,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/235g02-en.pdf"
         },
         {
-            "id": 236,
+            "id": 224,
             "name": "AUSTRALIAN SILKY TERRIER",
             "section": "Toy Terriers",
             "country": "AUSTRALIA",
@@ -2026,7 +2026,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/236g03-en.pdf"
         },
         {
-            "id": 237,
+            "id": 225,
             "name": "NORWEGIAN BUHUND",
             "section": "Nordic Watchdogs and Herders",
             "country": "NORWAY",
@@ -2035,7 +2035,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/237g05-en.pdf"
         },
         {
-            "id": 238,
+            "id": 226,
             "name": "MUDI",
             "section": "Sheepdogs",
             "country": "HUNGARY",
@@ -2044,7 +2044,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/238g01-en.pdf"
         },
         {
-            "id": 239,
+            "id": 227,
             "name": "HUNGARIAN WIRE-HAIRED POINTER",
             "section": "Continental Pointing Dogs",
             "country": "HUNGARY",
@@ -2053,7 +2053,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/239g07-en.pdf"
         },
         {
-            "id": 240,
+            "id": 228,
             "name": "HUNGARIAN GREYHOUND",
             "section": "Short-haired Sighthounds",
             "country": "HUNGARY",
@@ -2062,7 +2062,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/240g10-en.pdf"
         },
         {
-            "id": 241,
+            "id": 229,
             "name": "HUNGARIAN HOUND - TRANSYLVANIAN SCENT HOUND",
             "section": "Scent hounds",
             "country": "HUNGARY",
@@ -2071,7 +2071,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/241g06-en.pdf"
         },
         {
-            "id": 242,
+            "id": 230,
             "name": "NORWEGIAN ELKHOUND GREY",
             "section": "Nordic Hunting Dogs",
             "country": "NORWAY",
@@ -2080,7 +2080,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/242g05-en.pdf"
         },
         {
-            "id": 243,
+            "id": 231,
             "name": "ALASKAN MALAMUTE",
             "section": "Nordic Sledge Dogs",
             "country": "UNITED STATES OF AMERICA",
@@ -2089,7 +2089,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/243g05-en.pdf"
         },
         {
-            "id": 244,
+            "id": 232,
             "name": "SLOVAKIAN HOUND",
             "section": "Scent hounds",
             "country": "SLOVAKIA",
@@ -2098,7 +2098,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/244g06-en.pdf"
         },
         {
-            "id": 245,
+            "id": 233,
             "name": "BOHEMIAN WIRE-HAIRED POINTING GRIFFON",
             "section": "Continental Pointing Dogs",
             "country": "CZECH REPUBLIC",
@@ -2107,7 +2107,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/245g07-en.pdf"
         },
         {
-            "id": 246,
+            "id": 234,
             "name": "CESKY TERRIER",
             "section": "Small sized Terriers",
             "country": "CZECH REPUBLIC",
@@ -2116,7 +2116,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/246g03-en.pdf"
         },
         {
-            "id": 247,
+            "id": 235,
             "name": "ATLAS MOUNTAIN DOG (AIDI)",
             "section": "Molossian type",
             "country": "MOROCCO",
@@ -2125,7 +2125,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/247g02-en.pdf"
         },
         {
-            "id": 248,
+            "id": 236,
             "name": "PHARAOH HOUND",
             "section": "Primitive type",
             "country": "MALTA",
@@ -2134,7 +2134,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/248g05-en.pdf"
         },
         {
-            "id": 249,
+            "id": 237,
             "name": "MAJORCA MASTIFF",
             "section": "Molossian type",
             "country": "SPAIN",
@@ -2143,7 +2143,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/249g02-en.pdf"
         },
         {
-            "id": 250,
+            "id": 238,
             "name": "HAVANESE",
             "section": "Bichons and related breeds",
             "country": "CUBA",
@@ -2152,7 +2152,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/250g09-en.pdf"
         },
         {
-            "id": 251,
+            "id": 239,
             "name": "POLISH LOWLAND SHEEPDOG",
             "section": "Sheepdogs",
             "country": "POLAND",
@@ -2161,7 +2161,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/251g01-en.pdf"
         },
         {
-            "id": 252,
+            "id": 240,
             "name": "TATRA SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "POLAND",
@@ -2170,7 +2170,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/252g01-en.pdf"
         },
         {
-            "id": 253,
+            "id": 241,
             "name": "PUG",
             "section": "Small Molossian type Dogs",
             "country": "CHINA",
@@ -2179,7 +2179,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/253g09-en.pdf"
         },
         {
-            "id": 254,
+            "id": 242,
             "name": "ALPINE DACHSBRACKE",
             "section": "Leash (scent) Hounds",
             "country": "AUSTRIA",
@@ -2188,7 +2188,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/254g06-en.pdf"
         },
         {
-            "id": 255,
+            "id": 243,
             "name": "AKITA",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2197,7 +2197,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/255g05-en.pdf"
         },
         {
-            "id": 257,
+            "id": 244,
             "name": "SHIBA",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2206,7 +2206,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/257g05-en.pdf"
         },
         {
-            "id": 259,
+            "id": 245,
             "name": "JAPANESE TERRIER",
             "section": "Small sized Terriers",
             "country": "JAPAN",
@@ -2215,7 +2215,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/259g03-en.pdf"
         },
         {
-            "id": 260,
+            "id": 246,
             "name": "TOSA",
             "section": "Molossian type",
             "country": "JAPAN",
@@ -2224,7 +2224,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/260g02-en.pdf"
         },
         {
-            "id": 261,
+            "id": 247,
             "name": "HOKKAIDO",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2233,7 +2233,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/261g05-en.pdf"
         },
         {
-            "id": 262,
+            "id": 248,
             "name": "JAPANESE SPITZ",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2242,7 +2242,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/262g05-en.pdf"
         },
         {
-            "id": 263,
+            "id": 249,
             "name": "CHESAPEAKE BAY RETRIEVER",
             "section": "Retrievers",
             "country": "UNITED STATES OF AMERICA",
@@ -2251,7 +2251,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/263g08-en.pdf"
         },
         {
-            "id": 264,
+            "id": 250,
             "name": "MASTIFF",
             "section": "Molossian type",
             "country": "GREAT BRITAIN",
@@ -2260,7 +2260,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/264g02-en.pdf"
         },
         {
-            "id": 265,
+            "id": 251,
             "name": "NORWEGIAN LUNDEHUND",
             "section": "Nordic Hunting Dogs",
             "country": "NORWAY",
@@ -2269,7 +2269,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/265g05-en.pdf"
         },
         {
-            "id": 266,
+            "id": 252,
             "name": "HYGEN HOUND",
             "section": "Scent hounds",
             "country": "NORWAY",
@@ -2278,7 +2278,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/266g06-en.pdf"
         },
         {
-            "id": 267,
+            "id": 253,
             "name": "HALDEN HOUND",
             "section": "Scent hounds",
             "country": "NORWAY",
@@ -2287,7 +2287,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/267g06-en.pdf"
         },
         {
-            "id": 268,
+            "id": 254,
             "name": "NORWEGIAN ELKHOUND BLACK",
             "section": "Nordic Hunting Dogs",
             "country": "NORWAY",
@@ -2296,7 +2296,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/268g05-en.pdf"
         },
         {
-            "id": 269,
+            "id": 255,
             "name": "SALUKI",
             "section": "Long-haired or fringed Sighthounds",
             "country": "MIDDLE EAST",
@@ -2305,7 +2305,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/269g10-en.pdf"
         },
         {
-            "id": 270,
+            "id": 256,
             "name": "SIBERIAN HUSKY",
             "section": "Nordic Sledge Dogs",
             "country": "UNITED STATES OF AMERICA",
@@ -2314,7 +2314,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/270g05-en.pdf"
         },
         {
-            "id": 271,
+            "id": 257,
             "name": "BEARDED COLLIE",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -2323,7 +2323,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/271g01-en.pdf"
         },
         {
-            "id": 272,
+            "id": 258,
             "name": "NORFOLK TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -2332,7 +2332,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/272g03-en.pdf"
         },
         {
-            "id": 273,
+            "id": 259,
             "name": "CANAAN DOG",
             "section": "Primitive type",
             "country": "ISRAEL",
@@ -2341,7 +2341,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/273g05-en.pdf"
         },
         {
-            "id": 274,
+            "id": 260,
             "name": "GREENLAND DOG",
             "section": "Nordic Sledge Dogs",
             "country": "GREENLAND",
@@ -2350,7 +2350,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/274g05-en.pdf"
         },
         {
-            "id": 276,
+            "id": 261,
             "name": "NORRBOTTENSPITZ",
             "section": "Nordic Hunting Dogs",
             "country": "SWEDEN",
@@ -2359,7 +2359,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/276g05-en.pdf"
         },
         {
-            "id": 277,
+            "id": 262,
             "name": "CROATIAN SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "CROATIA",
@@ -2368,7 +2368,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/277g01-en.pdf"
         },
         {
-            "id": 278,
+            "id": 263,
             "name": "KARST SHEPHERD DOG",
             "section": "Molossian type",
             "country": "SLOVENIA",
@@ -2377,7 +2377,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/278g02-en.pdf"
         },
         {
-            "id": 279,
+            "id": 264,
             "name": "MONTENEGRIN MOUNTAIN HOUND",
             "section": "Scent hounds",
             "country": "MONTENEGRO",
@@ -2386,7 +2386,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/279g06-en.pdf"
         },
         {
-            "id": 281,
+            "id": 265,
             "name": "OLD DANISH POINTING DOG",
             "section": "Continental Pointing Dogs",
             "country": "DENMARK",
@@ -2395,7 +2395,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/281g07-en.pdf"
         },
         {
-            "id": 282,
+            "id": 266,
             "name": "GRAND GRIFFON VENDEEN",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2404,7 +2404,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/282g06-en.pdf"
         },
         {
-            "id": 283,
+            "id": 267,
             "name": "COTON DE TULEAR",
             "section": "Bichons and related breeds",
             "country": "MADAGASCAR",
@@ -2413,7 +2413,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/283g09-en.pdf"
         },
         {
-            "id": 284,
+            "id": 268,
             "name": "LAPPONIAN HERDER",
             "section": "Nordic Watchdogs and Herders",
             "country": "FINLAND",
@@ -2422,7 +2422,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/284g05-en.pdf"
         },
         {
-            "id": 285,
+            "id": 269,
             "name": "SPANISH GREYHOUND",
             "section": "Short-haired Sighthounds",
             "country": "SPAIN",
@@ -2431,7 +2431,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/285g10-en.pdf"
         },
         {
-            "id": 286,
+            "id": 270,
             "name": "AMERICAN STAFFORDSHIRE TERRIER",
             "section": "Bull type Terriers",
             "country": "UNITED STATES OF AMERICA",
@@ -2440,7 +2440,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/286g03-en.pdf"
         },
         {
-            "id": 287,
+            "id": 271,
             "name": "AUSTRALIAN CATTLE DOG",
             "section": "Cattledogs (except Swiss Cattledogs)",
             "country": "AUSTRALIA",
@@ -2449,7 +2449,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/287g01-en.pdf"
         },
         {
-            "id": 288,
+            "id": 272,
             "name": "CHINESE CRESTED DOG",
             "section": "Hairless Dogs",
             "country": "CHINA",
@@ -2458,7 +2458,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/288g09-en.pdf"
         },
         {
-            "id": 289,
+            "id": 273,
             "name": "ICELANDIC SHEEPDOG",
             "section": "Nordic Watchdogs and Herders",
             "country": "ICELAND",
@@ -2467,7 +2467,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/289g05-en.pdf"
         },
         {
-            "id": 290,
+            "id": 274,
             "name": "BEAGLE HARRIER",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2476,7 +2476,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/290g06-en.pdf"
         },
         {
-            "id": 291,
+            "id": 275,
             "name": "EURASIAN",
             "section": "Asian Spitz and related breeds",
             "country": "GERMANY",
@@ -2485,7 +2485,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/291g05-en.pdf"
         },
         {
-            "id": 292,
+            "id": 276,
             "name": "DOGO ARGENTINO",
             "section": "Molossian type",
             "country": "ARGENTINA",
@@ -2494,7 +2494,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/292g02-en.pdf"
         },
         {
-            "id": 293,
+            "id": 277,
             "name": "AUSTRALIAN KELPIE",
             "section": "Sheepdogs",
             "country": "AUSTRALIA",
@@ -2503,7 +2503,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/293g01-en.pdf"
         },
         {
-            "id": 294,
+            "id": 278,
             "name": "OTTERHOUND",
             "section": "Scent hounds",
             "country": "GREAT BRITAIN",
@@ -2512,7 +2512,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/294g06-en.pdf"
         },
         {
-            "id": 295,
+            "id": 279,
             "name": "HARRIER",
             "section": "Scent hounds",
             "country": "GREAT BRITAIN",
@@ -2521,7 +2521,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/295g06-en.pdf"
         },
         {
-            "id": 296,
+            "id": 280,
             "name": "COLLIE SMOOTH",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -2530,7 +2530,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/296g01-en.pdf"
         },
         {
-            "id": 297,
+            "id": 281,
             "name": "BORDER COLLIE",
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
@@ -2539,7 +2539,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/297g01-en.pdf"
         },
         {
-            "id": 298,
+            "id": 282,
             "name": "ROMAGNA WATER DOG",
             "section": "Water Dogs",
             "country": "ITALY",
@@ -2548,7 +2548,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/298g08-en.pdf"
         },
         {
-            "id": 299,
+            "id": 283,
             "name": "GERMAN HOUND",
             "section": "Scent hounds",
             "country": "GERMANY",
@@ -2557,7 +2557,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/299g06-en.pdf"
         },
         {
-            "id": 300,
+            "id": 284,
             "name": "BLACK AND TAN COONHOUND",
             "section": "Scent hounds",
             "country": "UNITED STATES OF AMERICA",
@@ -2566,7 +2566,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/300g06-en.pdf"
         },
         {
-            "id": 301,
+            "id": 285,
             "name": "AMERICAN WATER SPANIEL",
             "section": "Water Dogs",
             "country": "UNITED STATES OF AMERICA",
@@ -2575,7 +2575,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/301g08-en.pdf"
         },
         {
-            "id": 302,
+            "id": 286,
             "name": "IRISH GLEN OF IMAAL TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "IRELAND",
@@ -2584,7 +2584,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/302g03-en.pdf"
         },
         {
-            "id": 303,
+            "id": 287,
             "name": "AMERICAN FOXHOUND",
             "section": "Scent hounds",
             "country": "UNITED STATES OF AMERICA",
@@ -2593,7 +2593,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/303g06-en.pdf"
         },
         {
-            "id": 304,
+            "id": 288,
             "name": "RUSSIAN-EUROPEAN LAIKA",
             "section": "Nordic Hunting Dogs",
             "country": "RUSSIA",
@@ -2602,7 +2602,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/304g05-en.pdf"
         },
         {
-            "id": 305,
+            "id": 289,
             "name": "EAST SIBERIAN LAIKA",
             "section": "Nordic Hunting Dogs",
             "country": "RUSSIA",
@@ -2611,7 +2611,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/305g05-en.pdf"
         },
         {
-            "id": 306,
+            "id": 290,
             "name": "WEST SIBERIAN LAIKA",
             "section": "Nordic Hunting Dogs",
             "country": "RUSSIA",
@@ -2620,7 +2620,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/306g05-en.pdf"
         },
         {
-            "id": 307,
+            "id": 291,
             "name": "AZAWAKH",
             "section": "Short-haired Sighthounds",
             "country": "MALI",
@@ -2629,7 +2629,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/307g10-en.pdf"
         },
         {
-            "id": 308,
+            "id": 292,
             "name": "DUTCH SMOUSHOND",
             "section": "Pinscher and Schnauzer type",
             "country": "THE NETHERLANDS",
@@ -2638,7 +2638,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/308g02-en.pdf"
         },
         {
-            "id": 309,
+            "id": 293,
             "name": "SHAR PEI",
             "section": "Molossian type",
             "country": "CHINA",
@@ -2647,16 +2647,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/309g02-en.pdf"
         },
         {
-            "id": 310,
-            "name": "PERUVIAN HAIRLESS DOG",
-            "section": "Primitive type",
-            "country": "PERU",
-            "url": "http://www.fci.be/en/nomenclature/PERUVIAN-HAIRLESS-DOG-310.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/310g05.jpg",
-            "pdf": "http://www.fci.be/Nomenclature/Standards/310g05-en.pdf"
-        },
-        {
-            "id": 311,
+            "id": 294,
             "name": "SAARLOOS WOLFHOND",
             "section": "Sheepdogs",
             "country": "THE NETHERLANDS",
@@ -2665,7 +2656,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/311g01-en.pdf"
         },
         {
-            "id": 312,
+            "id": 295,
             "name": "NOVA SCOTIA DUCK TOLLING RETRIEVER",
             "section": "Retrievers",
             "country": "CANADA",
@@ -2674,7 +2665,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/312g08-en.pdf"
         },
         {
-            "id": 313,
+            "id": 296,
             "name": "DUTCH SCHAPENDOES",
             "section": "Sheepdogs",
             "country": "THE NETHERLANDS",
@@ -2683,7 +2674,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/313g01-en.pdf"
         },
         {
-            "id": 314,
+            "id": 297,
             "name": "NEDERLANDSE KOOIKERHONDJE",
             "section": "Flushing Dogs",
             "country": "THE NETHERLANDS",
@@ -2692,7 +2683,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/314g08-en.pdf"
         },
         {
-            "id": 315,
+            "id": 298,
             "name": "BROHOLMER",
             "section": "Molossian type",
             "country": "DENMARK",
@@ -2701,7 +2692,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/315g02-en.pdf"
         },
         {
-            "id": 316,
+            "id": 299,
             "name": "FRENCH WHITE AND ORANGE HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2710,7 +2701,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/316g06-en.pdf"
         },
         {
-            "id": 317,
+            "id": 300,
             "name": "KAI",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2719,7 +2710,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/317g05-en.pdf"
         },
         {
-            "id": 318,
+            "id": 301,
             "name": "KISHU",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2728,7 +2719,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/318g05-en.pdf"
         },
         {
-            "id": 319,
+            "id": 302,
             "name": "SHIKOKU",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2737,7 +2728,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/319g05-en.pdf"
         },
         {
-            "id": 320,
+            "id": 303,
             "name": "WIREHAIRED SLOVAKIAN POINTER",
             "section": "Continental Pointing Dogs",
             "country": "SLOVAKIA",
@@ -2746,7 +2737,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/320g07-en.pdf"
         },
         {
-            "id": 321,
+            "id": 304,
             "name": "MAJORCA SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "SPAIN",
@@ -2755,7 +2746,7 @@ var dogBreeds =
             "pdf": ""
         },
         {
-            "id": 322,
+            "id": 305,
             "name": "GREAT ANGLO-FRENCH TRICOLOUR HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2764,7 +2755,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/322g06-en.pdf"
         },
         {
-            "id": 323,
+            "id": 306,
             "name": "GREAT ANGLO-FRENCH WHITE AND BLACK HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2773,7 +2764,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/323g06-en.pdf"
         },
         {
-            "id": 324,
+            "id": 307,
             "name": "GREAT ANGLO-FRENCH WHITE & ORANGE HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2782,7 +2773,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/324g06-en.pdf"
         },
         {
-            "id": 325,
+            "id": 308,
             "name": "MEDIUM-SIZED ANGLO-FRENCH HOUND",
             "section": "Scent hounds",
             "country": "FRANCE",
@@ -2791,7 +2782,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/325g06-en.pdf"
         },
         {
-            "id": 326,
+            "id": 309,
             "name": "SOUTH RUSSIAN SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "RUSSIA",
@@ -2800,7 +2791,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/326g01-en.pdf"
         },
         {
-            "id": 327,
+            "id": 310,
             "name": "RUSSIAN BLACK TERRIER",
             "section": "Pinscher and Schnauzer type",
             "country": "RUSSIA",
@@ -2809,7 +2800,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/327g02-en.pdf"
         },
         {
-            "id": 328,
+            "id": 311,
             "name": "CAUCASIAN SHEPHERD DOG",
             "section": "Molossian type",
             "country": "RUSSIA",
@@ -2818,7 +2809,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/328g02-en.pdf"
         },
         {
-            "id": 329,
+            "id": 312,
             "name": "CANARIAN WARREN HOUND",
             "section": "Primitive type - Hunting Dogs",
             "country": "SPAIN",
@@ -2827,7 +2818,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/329g05-en.pdf"
         },
         {
-            "id": 330,
+            "id": 313,
             "name": "IRISH RED AND WHITE SETTER",
             "section": "British and Irish Pointers and Setters",
             "country": "IRELAND",
@@ -2836,7 +2827,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/330g07-en.pdf"
         },
         {
-            "id": 331,
+            "id": 314,
             "name": "KANGAL SHEPHERD DOG",
             "section": "Molossian type",
             "country": "TURKEY",
@@ -2845,7 +2836,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/331g02-en.pdf"
         },
         {
-            "id": 332,
+            "id": 315,
             "name": "CZECHOSLOVAKIAN WOLFDOG",
             "section": "Sheepdogs",
             "country": "SLOVAKIA",
@@ -2854,7 +2845,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/332g01-en.pdf"
         },
         {
-            "id": 333,
+            "id": 316,
             "name": "POLISH GREYHOUND",
             "section": "Short-haired Sighthounds",
             "country": "POLAND",
@@ -2863,7 +2854,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/333g10-en.pdf"
         },
         {
-            "id": 334,
+            "id": 317,
             "name": "KOREA JINDO DOG",
             "section": "Asian Spitz and related breeds",
             "country": "REPUBLIC OF KOREA",
@@ -2872,7 +2863,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/334g05-en.pdf"
         },
         {
-            "id": 335,
+            "id": 318,
             "name": "CENTRAL ASIA SHEPHERD DOG",
             "section": "Molossian type",
             "country": "RUSSIA",
@@ -2881,7 +2872,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/335g02-en.pdf"
         },
         {
-            "id": 336,
+            "id": 319,
             "name": "SPANISH WATER DOG",
             "section": "Water Dogs",
             "country": "SPAIN",
@@ -2890,7 +2881,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/336g08-en.pdf"
         },
         {
-            "id": 337,
+            "id": 320,
             "name": "ITALIAN SHORT-HAIRED SEGUGIO",
             "section": "Scent hounds",
             "country": "ITALY",
@@ -2899,7 +2890,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/337g06-en.pdf"
         },
         {
-            "id": 338,
+            "id": 321,
             "name": "THAI RIDGEBACK DOG",
             "section": "Primitive type - Hunting Dogs",
             "country": "THAILAND",
@@ -2908,7 +2899,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/338g05-en.pdf"
         },
         {
-            "id": 339,
+            "id": 322,
             "name": "PARSON RUSSELL TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
@@ -2917,7 +2908,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/339g03-en.pdf"
         },
         {
-            "id": 340,
+            "id": 323,
             "name": "SAINT MIGUEL CATTLE DOG",
             "section": "Molossian type",
             "country": "PORTUGAL",
@@ -2926,7 +2917,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/340g02-en.pdf"
         },
         {
-            "id": 341,
+            "id": 324,
             "name": "BRAZILIAN TERRIER",
             "section": "Large and medium sized Terriers",
             "country": "BRAZIL",
@@ -2935,7 +2926,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/341g03-en.pdf"
         },
         {
-            "id": 342,
+            "id": 325,
             "name": "AUSTRALIAN SHEPHERD",
             "section": "Sheepdogs",
             "country": "UNITED STATES OF AMERICA",
@@ -2944,7 +2935,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/342g01-en.pdf"
         },
         {
-            "id": 343,
+            "id": 326,
             "name": "ITALIAN CANE CORSO",
             "section": "Molossian type",
             "country": "ITALY",
@@ -2953,7 +2944,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/343g02-en.pdf"
         },
         {
-            "id": 344,
+            "id": 327,
             "name": "AMERICAN AKITA",
             "section": "Asian Spitz and related breeds",
             "country": "JAPAN",
@@ -2962,7 +2953,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/344g05-en.pdf"
         },
         {
-            "id": 345,
+            "id": 328,
             "name": "JACK RUSSELL TERRIER",
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
@@ -2971,7 +2962,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/345g03-en.pdf"
         },
         {
-            "id": 346,
+            "id": 329,
             "name": "DOGO CANARIO",
             "section": "Molossian type",
             "country": "SPAIN",
@@ -2980,7 +2971,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/346g02-en.pdf"
         },
         {
-            "id": 347,
+            "id": 330,
             "name": "WHITE SWISS SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "SWITZERLAND",
@@ -2989,7 +2980,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/347g01-en.pdf"
         },
         {
-            "id": 348,
+            "id": 331,
             "name": "TAIWAN DOG",
             "section": "Primitive type - Hunting Dogs",
             "country": "TAIWAN",
@@ -2998,7 +2989,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/348g05-en.pdf"
         },
         {
-            "id": 349,
+            "id": 332,
             "name": "ROMANIAN MIORITIC SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "ROMANIA",
@@ -3007,7 +2998,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/349g01-en.pdf"
         },
         {
-            "id": 350,
+            "id": 333,
             "name": "ROMANIAN CARPATHIAN SHEPHERD DOG",
             "section": "Sheepdogs",
             "country": "ROMANIA",
@@ -3016,7 +3007,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/350g01-en.pdf"
         },
         {
-            "id": 351,
+            "id": 334,
             "name": "AUSTRALIAN STUMPY TAIL CATTLE DOG",
             "section": "Cattledogs (except Swiss Cattledogs)",
             "country": "AUSTRALIA",
@@ -3025,7 +3016,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/351g01-en.pdf"
         },
         {
-            "id": 352,
+            "id": 335,
             "name": "RUSSIAN TOY",
             "section": "Continental Toy Spaniel and Russian Toy",
             "country": "RUSSIA",
@@ -3034,7 +3025,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/352g09-en.pdf"
         },
         {
-            "id": 353,
+            "id": 336,
             "name": "CIMARRÓN URUGUAYO",
             "section": "Molossian type",
             "country": "URUGUAY",
@@ -3043,7 +3034,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/353g02-en.pdf"
         },
         {
-            "id": 354,
+            "id": 337,
             "name": "POLISH HUNTING DOG",
             "section": "Scent hounds",
             "country": "POLAND",
@@ -3052,7 +3043,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/354g06-en.pdf"
         },
         {
-            "id": 355,
+            "id": 338,
             "name": "BOSNIAN AND HERZEGOVINIAN - CROATIAN SHEPHERD DOG",
             "section": "Molossian type",
             "country": "BOSNIA AND HERZEGOVINA, CROATIA",
@@ -3061,7 +3052,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/355g02-en.pdf"
         },
         {
-            "id": 356,
+            "id": 339,
             "name": "DANISH-SWEDISH FARMDOG",
             "section": "Pinscher and Schnauzer type",
             "country": "DENMARK, SWEDEN",
@@ -3070,7 +3061,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/356g02-en.pdf"
         },
         {
-            "id": 357,
+            "id": 340,
             "name": "ROMANIAN BUCOVINA SHEPHERD",
             "section": "Molossian type",
             "country": "ROMANIA",
@@ -3079,7 +3070,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/357g02-en.pdf"
         },
         {
-            "id": 358,
+            "id": 341,
             "name": "THAI BANGKAEW DOG",
             "section": "Asian Spitz and related breeds",
             "country": "THAILAND",
@@ -3088,7 +3079,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/358g05-en.pdf"
         },
         {
-            "id": 359,
+            "id": 342,
             "name": "MINIATURE BULL TERRIER",
             "section": "Bull type Terriers",
             "country": "GREAT BRITAIN",
@@ -3097,7 +3088,7 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/359g03-en.pdf"
         },
         {
-            "id": 360,
+            "id": 343,
             "name": "LANCASHIRE HEELER",
             "section": "Sheepdogs",
             "country": "ENGLAND",
@@ -3106,52 +3097,59 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/360g01-en.pdf"
         },
         {
-            "id": 361,
+            "id": 344,
             "name": "SEGUGIO MAREMMANO",
             "section": "Scent hounds",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/SEGUGIO-MAREMMANO-361.html",
             "image": "http://www.fci.be/Nomenclature/Illustrations/361g06-1.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/361g06-en.pdf"
+        },
+        {
+            "id": 345,
+            "name": "PERUVIAN HAIRLESS DOG",
+            "section": "Primitive type",
+            "country": "PERU",
+            "url": "http://www.fci.be/en/nomenclature/PERUVIAN-HAIRLESS-DOG-310.html",
+            "image": "http://www.fci.be/Nomenclature/Illustrations/310g05.jpg",
+            "pdf": "http://www.fci.be/Nomenclature/Standards/310g05-en.pdf"
         }
     ];
 
-// localforage.setItem('my array', dogBreeds).then(function(value) {
-//     // This will output `1`.
-//     console.log(value[0]);
-// }).catch(function(err) {
-//     // This code runs if there were any errors
-//     console.log(err);
-// });
+populateDogDB();
+allBreedsArray = veiwAllDogsInDB();
+// console.log(allBreedsArray);
+function populateDogDB() {
+    dogBreeds.forEach(function (breed) {
+        breedID = breed.id.toString();
 
-dogBreeds.forEach(function(breed) {
-    breed.id = breed.id.toString()
-    localforage.setItem(breed.id, breed)
+        localforage.setItem(breedID, breed)
 
-})
+    // }).catch(function (err) {
+    //     console.log(err);
+    })
+}
 
-localforage.getItem('271').then(function(value) {
-    // This code runs once the value has been loaded
-    // from the offline store.
-    console.log(value);
-}).catch(function(err) {
-    // This code runs if there were any errors
-    console.log(err);
-});
+function veiwAllDogsInDB(breeds) {
+    breeds = [];
+    dogBreeds.forEach(function (breed) {
+        breedID = breed.id.toString();
 
+        localforage.getItem(breedID).then(function (value) {
+           breeds.push(value);
+        }).catch(function (err) {
 
-// let html = 'hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello'
-// document.querySelector('#dogList').innerHTML += html
-// dogBreeds.forEach(function(breed) {
-//
-//     let html = '<p> hello </p>'
-// document.querySelector('#dogList').innerHTML += html
-
+            console.log(err);
+        })
+    })
+    console.log(breeds)
+    return breeds;
+}
 // let source = document.querySelector('#resultsTemplate').innerHTML
 //
 // let template = Handlebars.compile(source)
 //
-// let html = template(breed)
+// let html = template(allBreedsArray);
 //
 // document.querySelector('#dogList').innerHTML += html
-// })
+
