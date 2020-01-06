@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/localforage.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" sizes="48x48" href="images/icons/spot-icon-48x48.ico">
-    <script defer src="js/localforage.js"></script>
+    <link rel="manifest" href="manifest.json">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script defer src="js/main.js"></script>
+    <script defer src="js/indexdb.js"></script>
     <title>Spot The Dog</title>
-    <script id="resultsTemplate" type="text/x-handlebars-template">
-    </script>
-    <link rel="manifest" href="manifest.json">
+<!--    <script id="resultsTemplate" type="text/x-handlebars-template">-->
+<!--        <ul class="dogList">-->
+<!--            {{#each dogBreeds}}-->
+<!--                {{@index.id}}-->
+<!--            {{/each}}-->
+<!--        </ul>-->
+<!--    </script>-->
     <script>
         if('serviceWorker' in navigator){
             navigator.serviceWorker.register('service-worker.js')
@@ -41,6 +47,12 @@
 <div class="container fadeIn">
     <div class="row justify-content-center titleHome">
         <h1 id="title">Spot the dog</h1>
+    </div>
+
+    <div class="row justify-content-center" id="dogList">
+        <p id="list">hello</p>
+        <input type="file" accept="image/*;capture=camera">
+
     </div>
 </div>
 </body>

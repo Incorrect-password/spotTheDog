@@ -16,7 +16,6 @@ var filesToCache = [
     "http://localhost:1234/financeCalculator/app/index.html"
 ];
 
-importScripts('js/localforage.js');
 
 self.addEventListener("install", function(event) {
     log('[ServiceWorker] Installing....');

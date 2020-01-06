@@ -32,6 +32,12 @@ div.titleHome {
   opacity: 0.75;
 }
 
+#list {
+  font-size: 3rem;
+  color: white;
+  z-index: 100;
+}
+
 
 
 
