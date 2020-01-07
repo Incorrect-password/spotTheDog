@@ -3116,20 +3116,60 @@ var dogBreeds =
         }
     ];
 
+// let openRequest = indexedDB.open("db", 1);
+//
+// openRequest.onupgradeneeded = function() {
+//     // triggers if the client had no database
+//     // ...perform initialization...
+//     db.createObjectStore('allBreeds', {keyPath: name});
+//
+//     db.transaction('allBreeds', 'readwrite');
+//
+//     let dogs = transaction.objectStore("books"); // (2)
+//
+//     let dog = {
+//         id: 'js',
+//         price: 10,
+//         created: new Date()
+//     };
+//
+//     let request = dogs.add(dog); // (3)
+//
+//     request.onsuccess = function() { // (4)
+//         console.log("dog added to the store", request.result);
+//     };
+//
+//     request.onerror = function() {
+//         console.log("Error", request.error);
+//     };
+// };
+//
+// openRequest.onerror = function() {
+//     console.error("Error", openRequest.error);
+// };
+//
+// openRequest.onsuccess = function() {
+//     let db = openRequest.result;
+//     // continue to work with database using db object
+// };
+
+
+
 populateDogDB();
 // allBreedsArray = getAllDogsInDB();
 // allBreedsArray.forEach(function(object) {
 //     console.log(object.id)
 // });
-viewBreed(24)
+// viewAllBreeds()
+// viewBreed(338)
+
+
 function populateDogDB() {
     dogBreeds.forEach(function (breed) {
         breedID = breed.id.toString();
 
         localforage.setItem(breedID, breed)
 
-    // }).catch(function (err) {
-    //     console.log(err);
     })
 }
 
@@ -3138,14 +3178,55 @@ function getAllDogsInDB(breeds) {
     dogBreeds.forEach(function (breed) {
         breedID = breed.id.toString();
 
-        localforage.getItem(breedID).then(function(value) {
-           breeds.push(value);
+        localforage.getItem(breedID).then(function (value) {
+            breeds.push(value);
         }).catch(function (err) {
 
             console.log(err);
         })
     })
     return breeds;
+}
+
+function viewAllBreeds() {
+    // let breedArray = [];
+    let breeds = '';
+    localforage.iterate(function(value) {
+        // Resulting key/value pair -- this callback
+        // will be executed for every item in the
+        // database.
+
+        // breedArray.push(value);
+        breeds += `<div id="tile" class="row justify-content-center">` +
+            `<div class="col-4">` +
+            `<a href=` + value.url + `" target="_blank"><img src="` + value.image + `"
+            alt="no picture available" class="tileImage"></a>
+            </div>
+            <div class="col-4">
+            <a href="` + value.url + `" target="_blank" class="tileName">` + value.name + `</a>
+        </div>
+        <div class="col-4">
+            <button class="seenIt">I seen't it</button>
+        </div>
+        </div>`
+        // console.log(value);
+
+    }).then(function() {
+        console.log('Iteration has completed');
+        //
+        // let source = document.querySelector('#resultsTemplate').innerHTML;
+        //
+        // let template = Handlebars.compile(source);
+        //
+        // let html = template(breedArray);
+        //
+        // document.querySelector('#dogList').innerHTML += html
+        document.querySelector('#resultList').innerHTML += breeds
+
+    }).catch(function(err) {
+        // This code runs if there were any errors
+        console.log(err);
+    });
 }
 
 function viewBreed(breedID) {
@@ -3157,7 +3238,7 @@ function viewBreed(breedID) {
 
         let html = template(breedObject);
 
-        document.querySelector('#dogList').innerHTML += html
+        document.querySelector('#resultList').innerHTML += html
     })
 }
 // let source = document.querySelector('#resultsTemplate').innerHTML

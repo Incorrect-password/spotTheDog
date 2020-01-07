@@ -13,7 +13,7 @@ var filesToCache = [
     "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js",
     "http://localhost:1234/financeCalculator/app/manifest.json",
     "http://localhost:1234/financeCalculator/app/",
-    "http://localhost:1234/financeCalculator/app/index.html"
+    "http://localhost:1234/spotTheDog/app/index.html"
 ];
 
 
