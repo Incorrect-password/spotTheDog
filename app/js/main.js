@@ -3160,15 +3160,15 @@ populateDogDB();
 // allBreedsArray.forEach(function(object) {
 //     console.log(object.id)
 // });
-// viewAllBreeds()
+viewAllBreeds()
 // viewBreed(338)
 
 
 function populateDogDB() {
     dogBreeds.forEach(function (breed) {
-        breedID = breed.id.toString();
+        breedName = breed.name;
 
-        localforage.setItem(breedID, breed)
+        localforage.setItem(breedName, breed)
 
     })
 }
