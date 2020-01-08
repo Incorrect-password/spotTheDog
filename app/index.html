@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/localforage.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" sizes="48x48" href="images/icons/spot-icon-48x48.ico">
-    <script defer src="js/localforage.js"></script>
+    <link rel="manifest" href="manifest.json">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script defer src="js/main.js"></script>
     <title>Spot The Dog</title>
     <script id="resultsTemplate" type="text/x-handlebars-template">
+
+        <div id="tile" class="row justify-content-center">
+            <div class="col-4">
+                <a href="{{url}}" target="_blank"><img src="{{image}}" alt="no picture available" class="tileImage"></a>
+            </div>
+            <div class="col-4">
+                <a href="{{url}}" target="_blank" class="tileName">{{name}}</a>
+            </div>
+            <div class="col-4">
+                <button class="seenIt" id="{{name}}"><p class="textBoxButton">I seen't it</p></button>
+            </div>
+        </div>
     </script>
-    <link rel="manifest" href="manifest.json">
     <script>
         if('serviceWorker' in navigator){
             navigator.serviceWorker.register('service-worker.js')
@@ -26,14 +38,14 @@
 </head>
 <body>
 <nav class="navbar  navbar-light rounded-bottom">
-    <a class="navbar-btn" href="#">
+    <a class="navbar-btn" href="" id="homePortal">
         <img src="images/kennel.jpg" class="rounded" width="60" height="60" alt="A dogs home that takes you home">
     </a>
     <form class="form-inline d-flex justify-content-center my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search Dog Breeds" aria-label="Search">
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
     </form>
-    <a class="navbar-btn" href="#">
+    <a class="navbar-btn" href="index.html" id="spottedDogsPortal">
         <img src="images/dalmation.jpg" class="rounded" width="60" height="60" alt="A spotted dog that takes you to dogs spotted">
     </a>
 </nav>
@@ -42,6 +54,15 @@
     <div class="row justify-content-center titleHome">
         <h1 id="title">Spot the dog</h1>
     </div>
+    <div class="row justify-content-center">
+        <div id="messageBox" class="container"></div>
+    </div>
+
+    <div class="row justify-content-center" >
+        <div id="resultList" class="container"></div>
+
+    </div>
 </div>
+<!--<input type="file" accept="image/*;capture=camera">-->
 </body>
 </html>

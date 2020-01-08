@@ -20,6 +20,11 @@ body {
 
 }
 
+.navbar-btn {
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
 h1 {
   color: #f5ede7;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -27,9 +32,54 @@ h1 {
   opacity: 1;
 }
 
+#messageBox {
+  color: #ff0000;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
 div.titleHome {
  background-color: #27262b;
   opacity: 0.75;
+}
+
+div#tile {
+  border: 2px solid white;
+  background-color: #e5e5e588;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tileImage {
+  height: 80px;
+  width: 90px;
+  border-radius: 5px;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.tileName {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.textBoxButton {
+  background-color: #e5e5e550;
+  border-radius: 5px;
+}
+
+button.seenIt {
+  height: 80px;
+  border-radius: 5px;
+  width: 90px;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  background: url("../images/pokeball.png") no-repeat;
+  background-size: cover;
+  color: #e18a41;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 1.5rem;
 }
 
 
