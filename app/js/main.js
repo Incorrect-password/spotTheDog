@@ -3165,10 +3165,18 @@ let spottedBreeds = localforage.createInstance({
 
 
 populateAllBreedsDB();
-// viewAllBreeds(allBreeds)
+viewAllBreeds(allBreeds)
 // spotBreed()
 
-viewBreed(allBreeds, "AFFENPINSCHER")
+// viewBreed(allBreeds, "AFFENPINSCHER")
+// viewSpottedDogs();
+
+function viewSpottedDogs() {
+    document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
+        console.log('hello');
+        viewAllBreeds(spottedBreeds);
+    })
+}
 
 /**
  * When the seen't it button is pressed the dog is added to spotted list and removed from all
@@ -3184,7 +3192,8 @@ function addSpottedButtonActivity() {
             allBreeds.getItem(button.id).then(function(record) {
                 console.log(record)
                 spotBreed(button.id, record)
-                removeSpottedBreedFromAll(button.id)
+                // removeSpottedBreedFromAll(button.id)
+                document.querySelector('#messageBox').innerHTML += "Dog Spotted! Well Done! <br>"
             })
         })
     })
@@ -3249,7 +3258,7 @@ function viewAllBreeds(db) {
             <a href="` + value.url + `" target="_blank" class="tileName"><b>` + value.name + `</b></a>
         </div>
         <div class="col-4">
-            <button class="seenIt">I seen't it</button>
+            <button class="seenIt" id="` + value.name + `"><p class="textBoxButton"> I seen't it</p></button>
         </div>
         </div>`
 
@@ -3264,6 +3273,7 @@ function viewAllBreeds(db) {
         //
         // document.querySelector('#resultList').innerHTML += html
         document.querySelector('#resultList').innerHTML += breeds;
+        addSpottedButtonActivity()
 
     }).catch(function(err) {
         // This code runs if there were any errors
