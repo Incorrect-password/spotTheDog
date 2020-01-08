@@ -3153,6 +3153,7 @@ var dogBreeds =
 //     // continue to work with database using db object
 // };
 
+
 let allBreeds = localforage.createInstance({
     name: "allBreeds"
 });
@@ -3167,9 +3168,12 @@ populateAllBreedsDB();
 // viewAllBreeds(allBreeds)
 // spotBreed()
 
-viewBreed(allBreeds, "AFGHAN HOUND")
+viewBreed(allBreeds, "AFFENPINSCHER")
 
-function addSpottedButtonActivity(id) {
+/**
+ * When the seen't it button is pressed the dog is added to spotted list and removed from all
+ */
+function addSpottedButtonActivity() {
 
     let seenItButtonActive = document.querySelectorAll('.seenIt')
     console.log(seenItButtonActive)
@@ -3180,11 +3184,15 @@ function addSpottedButtonActivity(id) {
             allBreeds.getItem(button.id).then(function(record) {
                 console.log(record)
                 spotBreed(button.id, record)
+                removeSpottedBreedFromAll(button.id)
             })
         })
     })
 }
 
+/**
+ * Takes the data from the data array and inserts it into indexeddb
+ */
 function populateAllBreedsDB() {
     dogBreeds.forEach(function (breed) {
         breedName = breed.name;
@@ -3194,16 +3202,36 @@ function populateAllBreedsDB() {
     })
 }
 
+/**
+ * adds the spotted breed to the spottedBreeds DB
+ * @param name name of the breed, the key
+ * @param value the object describing the breed, the value
+ */
 function spotBreed(name, value) {
     spottedBreeds.setItem(name, value).then(function (value) {
-        // Do other things once the value has been saved.
-        console.log(value);
+    }).catch(function(err) {
+        console.log(err);
+    });
+}
+
+/**
+ * removes the spotted dog from the all breeds DB
+ * @param name name of the breed, the key
+ */
+function removeSpottedBreedFromAll(name) {
+    allBreeds.removeItem(name).then(function() {
+        // Run this code once the key has been removed.
+        console.log('Key is cleared!');
     }).catch(function(err) {
         // This code runs if there were any errors
         console.log(err);
     });
 }
 
+/**
+ * shows all the breeds in a db
+ * @param db selects db to show breeds from
+ */
 function viewAllBreeds(db) {
     // let breedArray = [];
     let breeds = '';
@@ -3224,7 +3252,6 @@ function viewAllBreeds(db) {
             <button class="seenIt">I seen't it</button>
         </div>
         </div>`
-        // console.log(value);
 
     }).then(function(breedArray) {
         console.log('Iteration has completed');
@@ -3244,6 +3271,11 @@ function viewAllBreeds(db) {
     });
 }
 
+/**
+ * shows a particular breed from a specified db
+ * @param db the db where the breed is
+ * @param breedName the name of the breed
+ */
 function viewBreed(db, breedName) {
     db.getItem(breedName).then(function(breedObject) {
         let source = document.querySelector('#resultsTemplate').innerHTML;
