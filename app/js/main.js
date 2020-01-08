@@ -3165,14 +3165,23 @@ let spottedBreeds = localforage.createInstance({
 
 populateAllBreedsDB();
 // viewAllBreeds(allBreeds)
-spotBreed()
+// spotBreed()
 
 viewBreed(allBreeds, "AFGHAN HOUND")
-addSpottedButtonActivity(216)
 
 function addSpottedButtonActivity(id) {
-    document.querySelector('#' + id).addEventListener('click', function() {
-        console.log(id)
+
+    let seenItButtonActive = document.querySelectorAll('.seenIt')
+    console.log(seenItButtonActive)
+    seenItButtonActive.forEach(function (button) {
+
+        button.addEventListener('click', function() {
+
+            allBreeds.getItem(button.id).then(function(record) {
+                console.log(record)
+                spotBreed(button.id, record)
+            })
+        })
     })
 }
 
@@ -3227,7 +3236,7 @@ function viewAllBreeds(db) {
         // let html = template(breedArray);
         //
         // document.querySelector('#resultList').innerHTML += html
-        document.querySelector('#resultList').innerHTML += breeds
+        document.querySelector('#resultList').innerHTML += breeds;
 
     }).catch(function(err) {
         // This code runs if there were any errors
@@ -3237,13 +3246,14 @@ function viewAllBreeds(db) {
 
 function viewBreed(db, breedName) {
     db.getItem(breedName).then(function(breedObject) {
-        let source = document.querySelector('#resultsTemplate').innerHTML
+        let source = document.querySelector('#resultsTemplate').innerHTML;
 
-        let template = Handlebars.compile(source)
+        let template = Handlebars.compile(source);
 
         let html = template(breedObject);
 
-        document.querySelector('#resultList').innerHTML += html
+        document.querySelector('#resultList').innerHTML += html;
+        addSpottedButtonActivity();
     })
 }
 // let source = document.querySelector('#resultsTemplate').innerHTML
