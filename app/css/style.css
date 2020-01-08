@@ -20,6 +20,11 @@ body {
 
 }
 
+.navbar-btn {
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
 h1 {
   color: #f5ede7;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -39,27 +44,26 @@ div#tile {
   padding: 10px;
 }
 
-html body div#dogList {
-  font-size: 1.2rem;
-  color: white;
-}
-
 .tileImage {
   height: 80px;
   width: 90px;
   border-radius: 5px;
-
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .tileName {
   text-decoration: none;
   color: #000000;
+  font-size: 1.2rem;
 }
 
 button.seenIt {
   height: 80px;
   border-radius: 5px;
   width: 90px;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 

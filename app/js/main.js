@@ -3153,49 +3153,55 @@ var dogBreeds =
 //     // continue to work with database using db object
 // };
 
+let allBreeds = localforage.createInstance({
+    name: "allBreeds"
+});
+
+let spottedBreeds = localforage.createInstance({
+    name: "spottedDogs"
+});
 
 
-populateDogDB();
-// allBreedsArray = getAllDogsInDB();
-// allBreedsArray.forEach(function(object) {
-//     console.log(object.id)
-// });
-viewAllBreeds()
-// viewBreed(338)
 
+populateAllBreedsDB();
+// viewAllBreeds(allBreeds)
+spotBreed()
 
-function populateDogDB() {
+viewBreed(allBreeds, "AFGHAN HOUND")
+addSpottedButtonActivity(216)
+
+function addSpottedButtonActivity(id) {
+    document.querySelector('#' + id).addEventListener('click', function() {
+        console.log(id)
+    })
+}
+
+function populateAllBreedsDB() {
     dogBreeds.forEach(function (breed) {
         breedName = breed.name;
 
-        localforage.setItem(breedName, breed)
+        allBreeds.setItem(breedName, breed)
 
     })
 }
 
-function getAllDogsInDB(breeds) {
-    breeds = [];
-    dogBreeds.forEach(function (breed) {
-        breedID = breed.id.toString();
-
-        localforage.getItem(breedID).then(function (value) {
-            breeds.push(value);
-        }).catch(function (err) {
-
-            console.log(err);
-        })
-    })
-    return breeds;
+function spotBreed(name, value) {
+    spottedBreeds.setItem(name, value).then(function (value) {
+        // Do other things once the value has been saved.
+        console.log(value);
+    }).catch(function(err) {
+        // This code runs if there were any errors
+        console.log(err);
+    });
 }
 
-function viewAllBreeds() {
+function viewAllBreeds(db) {
     // let breedArray = [];
     let breeds = '';
-    localforage.iterate(function(value) {
+    db.iterate(function(value) {
         // Resulting key/value pair -- this callback
         // will be executed for every item in the
         // database.
-
         // breedArray.push(value);
         breeds += `<div id="tile" class="row justify-content-center">` +
             `<div class="col-4">` +
@@ -3203,7 +3209,7 @@ function viewAllBreeds() {
             alt="no picture available" class="tileImage"></a>
             </div>
             <div class="col-4">
-            <a href="` + value.url + `" target="_blank" class="tileName">` + value.name + `</a>
+            <a href="` + value.url + `" target="_blank" class="tileName"><b>` + value.name + `</b></a>
         </div>
         <div class="col-4">
             <button class="seenIt">I seen't it</button>
@@ -3211,16 +3217,16 @@ function viewAllBreeds() {
         </div>`
         // console.log(value);
 
-    }).then(function() {
+    }).then(function(breedArray) {
         console.log('Iteration has completed');
-        //
+
         // let source = document.querySelector('#resultsTemplate').innerHTML;
         //
         // let template = Handlebars.compile(source);
         //
         // let html = template(breedArray);
         //
-        // document.querySelector('#dogList').innerHTML += html
+        // document.querySelector('#resultList').innerHTML += html
         document.querySelector('#resultList').innerHTML += breeds
 
     }).catch(function(err) {
@@ -3229,9 +3235,8 @@ function viewAllBreeds() {
     });
 }
 
-function viewBreed(breedID) {
-    breedID = breedID.toString()
-    localforage.getItem(breedID).then(function(breedObject) {
+function viewBreed(db, breedName) {
+    db.getItem(breedName).then(function(breedObject) {
         let source = document.querySelector('#resultsTemplate').innerHTML
 
         let template = Handlebars.compile(source)
