@@ -3196,6 +3196,8 @@ function viewAllBreedsFromDB() {
     });
 }
 
+
+
 /**
  * When the seen't it button is pressed the dog is added to spotted list
  */
@@ -3230,6 +3232,9 @@ function spotBreed(name, value) {
     });
 }
 
+/**
+ * sets up taking you back to homepage when home icon clicked
+ */
 function addHomeButtonActivity() {
     document.querySelector('#homePortal').addEventListener('click', function () {
         viewAllBreedsFromDB()
@@ -3238,12 +3243,18 @@ function addHomeButtonActivity() {
 
 //spottedBreeds Functions_____________________________________________________________
 
+/**
+ * sets up taking you to spotted dogs when icon is clicked
+ */
 function viewSpottedDogsButtonActivity() {
     document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
         viewSpottedBreeds();
     })
 }
 
+/**
+ * shows all spotted dogs
+ */
 function viewSpottedBreeds() {
     document.querySelector('#resultList').innerHTML = '';
     document.querySelector('#messageBox').innerHTML = '';
@@ -3270,6 +3281,9 @@ function viewSpottedBreeds() {
     });
 }
 
+/**
+ * causes not seen it button to delete breed from spotted list when clicked
+ */
 function notSeenItButtonActive() {
 
     let notSeenItButtonActive = document.querySelectorAll('.notSeenIt')
@@ -3284,6 +3298,10 @@ function notSeenItButtonActive() {
     })
 }
 
+/**
+ * deletes breed from spottedBreeds db
+ * @param breedName name of the breed
+ */
 function deleteBreedFromSpotted(breedName) {
     spottedBreeds.removeItem(breedName).then(function() {
         document.querySelector('#messageBox').innerHTML += "Wrong Dog Eh?";
