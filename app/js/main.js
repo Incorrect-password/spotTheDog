@@ -3131,9 +3131,10 @@ let spottedBreeds = localforage.createInstance({
 
 
 populateAllBreedsDB();
-viewAllBreeds(dogBreeds)
-
+// viewAllBreeds(dogBreeds)
+viewAllBreedsFromDB();
 viewSpottedDogsButtonActivity();
+addHomeButtonActivity();
 
 //allBreeds Functions_____________________________________________________________________
 
@@ -3169,7 +3170,10 @@ function viewAllBreeds(dogBreeds) {
  * displays all breeds but gets data from indexedDB
  */
 function viewAllBreedsFromDB() {
+    document.querySelector('#resultList').innerHTML = '';
+
     let breedArray = [];
+
     allBreeds.iterate(function(value) {
 
         breedArray.push(value);
@@ -3196,6 +3200,7 @@ function viewAllBreedsFromDB() {
  * When the seen't it button is pressed the dog is added to spotted list
  */
 function addSpottedButtonActivity() {
+    document.querySelector('#messageBox').innerHTML ='';
 
     let seenItButtonActive = document.querySelectorAll('.seenIt')
     seenItButtonActive.forEach(function (button) {
@@ -3223,11 +3228,16 @@ function spotBreed(name, value) {
     });
 }
 
+function addHomeButtonActivity() {
+    document.querySelector('#homePortal').addEventListener('click', function () {
+        viewAllBreedsFromDB()
+    })
+}
+
 //spottedBreeds Functions_____________________________________________________________
 
 function viewSpottedDogsButtonActivity() {
     document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
-        console.log('hello');
         viewSpottedBreeds();
     })
 }
