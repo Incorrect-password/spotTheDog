@@ -3151,22 +3151,6 @@ function populateAllBreedsDB() {
 }
 
 /**
- * displays all dog breeds in alphabetical order and makes them selectable as being seen
- * @param dogBreeds  the above array of data rather than the indexedDB version
- */
-function viewAllBreeds(dogBreeds) {
-    let source = document.querySelector('#allBreedsTemplate').innerHTML;
-
-    let template = Handlebars.compile(source);
-
-    let html = template({data: dogBreeds});
-
-    document.querySelector('#resultList').innerHTML += html
-
-    addSpottedButtonActivity()
-}
-
-/**
  * displays all breeds but gets data from indexedDB
  */
 function viewAllBreedsFromDB() {
@@ -3190,13 +3174,24 @@ function viewAllBreedsFromDB() {
         document.querySelector('#resultList').innerHTML += html
 
         addSpottedButtonActivity()
-
+        breedArray.forEach(function(breed) {
+            showsSpotted(breed.name);
+        })
     }).catch(function(err) {
         console.log(err);
     });
 }
 
-
+/**
+ * shows which breeds have already been selected
+ */
+function showsSpotted(breed) {
+    spottedBreeds.getItem(breed).then(function(value) {
+        if (value != null) {
+            document.querySelector('#a' + value.id).style.border = '2px solid #32CD32';
+        }
+    })
+}
 
 /**
  * When the seen't it button is pressed the dog is added to spotted list
@@ -3225,7 +3220,7 @@ function addSpottedButtonActivity() {
  */
 function spotBreed(name, value) {
     spottedBreeds.setItem(name, value).then(function (value) {
-        document.querySelector('#a' + value.id).style.border = '3px solid green';
+        document.querySelector('#a' + value.id).style.border = '3px solid #00FF00';
 
     }).catch(function(err) {
         console.log(err);
@@ -3346,6 +3341,23 @@ function viewBreed(db, breedName) {
         document.querySelector('#resultList').innerHTML += html;
         addSpottedButtonActivity();
     })
+}
+
+
+/**
+ * displays all dog breeds in alphabetical order and makes them selectable as being seen
+ * @param dogBreeds  the above array of data rather than the indexedDB version
+ */
+function viewAllBreeds(dogBreeds) {
+    let source = document.querySelector('#allBreedsTemplate').innerHTML;
+
+    let template = Handlebars.compile(source);
+
+    let html = template({data: dogBreeds});
+
+    document.querySelector('#resultList').innerHTML += html
+
+    addSpottedButtonActivity()
 }
 
 
