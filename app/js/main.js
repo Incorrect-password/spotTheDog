@@ -3203,9 +3203,9 @@ function addSpottedButtonActivity() {
         button.addEventListener('click', function() {
 
             allBreeds.getItem(button.id).then(function(record) {
-                spotBreed(button.id, record)
-                // removeSpottedBreedFromAll(button.id)
-                document.querySelector('#messageBox').innerHTML += "Dog Spotted! Well Done! <br>"
+                spotBreed(button.id, record);
+
+                document.querySelector('#messageBox').innerHTML += "Dog Spotted! Well Done! <br>";
             })
         })
     })
@@ -3233,7 +3233,9 @@ function viewSpottedDogsButtonActivity() {
 }
 
 function viewSpottedBreeds() {
-    document.querySelector('#resultList').innerHTML = ''
+    document.querySelector('#resultList').innerHTML = '';
+    document.querySelector('#messageBox').innerHTML = '';
+
 
     let breedArray = [];
     spottedBreeds.iterate(function(value) {
@@ -3249,13 +3251,35 @@ function viewSpottedBreeds() {
 
         document.querySelector('#resultList').innerHTML += html
 
-        addSpottedButtonActivity()
+        notSeenItButtonActive()
 
     }).catch(function(err) {
         console.log(err);
     });
 }
 
+function notSeenItButtonActive() {
+
+    let notSeenItButtonActive = document.querySelectorAll('.notSeenIt')
+    notSeenItButtonActive.forEach(function (button) {
+
+        button.addEventListener('click', function() {
+
+            deleteBreedFromSpotted(button.id);
+
+            viewSpottedBreeds()
+        })
+    })
+}
+
+function deleteBreedFromSpotted(breedName) {
+    spottedBreeds.removeItem(breedName).then(function() {
+        document.querySelector('#messageBox').innerHTML += "Wrong Dog Eh?";
+
+    }).catch(function(err) {
+        console.log(err);
+    });
+}
 
 
 

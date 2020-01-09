@@ -86,7 +86,7 @@ div#tile {
   border-radius: 5px;
 }
 
-button.seenIt {
+button.seenToggle {
   height: 80px;
   border-radius: 5px;
   width: 90px;
@@ -99,29 +99,9 @@ button.seenIt {
   font-size: 1.5rem;
 }
 
-button.seenIt:active {
+button.seenToggle:active {
   transform: scale(1.3);
 }
-
-.notSeenIt {
-  height: 80px;
-  border-radius: 5px;
-  width: 90px;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  background: url("../images/pokeball.png") no-repeat;
-  background-size: cover;
-  color: #e18a41;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 1.5rem;
-}
-
-.notSeenIt:active {
-  transform: scale(1.3);
-}
-
-
-
 
 .fadeIn {
   animation-name: fadeIn;
