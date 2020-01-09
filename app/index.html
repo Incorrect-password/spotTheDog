@@ -13,8 +13,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script async src="js/main.js"></script>
     <title>Spot The Dog</title>
-    <script id="resultsTemplate" type="text/x-handlebars-template">
-
+    <script id="allBreedsTemplate" type="text/x-handlebars-template">
+{{#each data}}
         <div id="tile" class="row justify-content-center">
             <div class="col-4">
                 <a href="{{url}}" target="_blank"><img src="{{image}}" alt="no picture available" class="tileImage"></a>
@@ -26,6 +26,22 @@
                 <button class="seenIt" id="{{name}}"><p class="textBoxButton">I seen't it</p></button>
             </div>
         </div>
+        {{/each}}
+    </script>
+    <script id="spottedBreedsTemplate" type="text/x-handlebars-template">
+        {{#each data}}
+        <div id="tile" class="row justify-content-center">
+            <div class="col-4">
+                <a href="{{url}}" target="_blank"><img src="{{image}}" alt="no picture available" class="tileImage"></a>
+            </div>
+            <div class="col-4">
+                <a href="{{url}}" target="_blank" class="tileName">{{name}}</a>
+            </div>
+            <div class="col-4">
+                <button class="notSeenIt" id="{{name}}"><p class="textBoxButton">I didn't seen't it</p></button>
+            </div>
+        </div>
+        {{/each}}
     </script>
     <script>
         if('serviceWorker' in navigator){
@@ -39,14 +55,14 @@
 <body>
 <div class="backgroundCover">
     <nav class="navbar  navbar-light rounded-bottom">
-        <a class="navbar-btn" href="" id="homePortal">
+        <a class="navbar-btn"  id="homePortal">
             <img src="images/kennel.jpg" class="rounded" width="60" height="60" alt="A dogs home that takes you home">
         </a>
         <form class="form-inline d-flex justify-content-center my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search Dog Breeds" aria-label="Search">
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <a class="navbar-btn" href="" id="spottedDogsPortal">
+        <a class="navbar-btn" id="spottedDogsPortal">
             <img src="images/dalmation.jpg" class="rounded" width="60" height="60"
                  alt="A spotted dog that takes you to dogs spotted">
         </a>

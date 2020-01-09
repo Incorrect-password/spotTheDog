@@ -1,3 +1,4 @@
+//FUNCTIONS ARE AT THE BOTTOM FOR REASONS
 var dogBreeds =
     [
         {
@@ -3116,42 +3117,7 @@ var dogBreeds =
         }
     ];
 
-// let openRequest = indexedDB.open("db", 1);
-//
-// openRequest.onupgradeneeded = function() {
-//     // triggers if the client had no database
-//     // ...perform initialization...
-//     db.createObjectStore('allBreeds', {keyPath: name});
-//
-//     db.transaction('allBreeds', 'readwrite');
-//
-//     let dogs = transaction.objectStore("books"); // (2)
-//
-//     let dog = {
-//         id: 'js',
-//         price: 10,
-//         created: new Date()
-//     };
-//
-//     let request = dogs.add(dog); // (3)
-//
-//     request.onsuccess = function() { // (4)
-//         console.log("dog added to the store", request.result);
-//     };
-//
-//     request.onerror = function() {
-//         console.log("Error", request.error);
-//     };
-// };
-//
-// openRequest.onerror = function() {
-//     console.error("Error", openRequest.error);
-// };
-//
-// openRequest.onsuccess = function() {
-//     let db = openRequest.result;
-//     // continue to work with database using db object
-// };
+
 
 
 let allBreeds = localforage.createInstance({
@@ -3165,18 +3131,65 @@ let spottedBreeds = localforage.createInstance({
 
 
 populateAllBreedsDB();
-// viewAllBreeds(allBreeds)
-// viewAllBreeds(spottedBreeds)
-// spotBreed()
+// viewAllBreeds(dogBreeds)
 
-// viewBreed(allBreeds, "AFFENPINSCHER")
-viewSpottedDogs();
+viewSpottedDogsButtonActivity();
 
-function viewSpottedDogs() {
-    document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
-        console.log('hello');
-        viewAllBreeds(spottedBreeds);
+//allBreeds Functions_____________________________________________________________________
+
+/**
+ * Takes the data from the data array and inserts it into indexeddb
+ */
+function populateAllBreedsDB() {
+    dogBreeds.forEach(function (breed) {
+        let breedName = breed.name;
+
+        allBreeds.setItem(breedName, breed)
+
     })
+}
+
+/**
+ * displays all dog breeds in alphabetical order and makes them selectable as being seen
+ * @param dogBreeds  the above array of data rather than the indexedDB version
+ */
+function viewAllBreeds(dogBreeds) {
+    let source = document.querySelector('#spottedBreedsTemplate').innerHTML;
+
+    let template = Handlebars.compile(source);
+
+    let html = template({data: dogBreeds});
+
+    document.querySelector('#resultList').innerHTML += html
+
+    addSpottedButtonActivity()
+}
+
+/**
+ * displays all breeds but gets data from indexedDB
+ */
+function viewAllBreedsFromDB() {
+    let breedArray = [];
+    allBreeds.iterate(function(value) {
+
+        breedArray.push(value);
+
+    }).then(function() {
+        document.querySelector('#resultList').innerHTML = ''
+
+        let source = document.querySelector('#allBreedsTemplate').innerHTML;
+
+        let template = Handlebars.compile(source);
+
+        let html = template({data: breedArray});
+
+        document.querySelector('#resultList').innerHTML += html
+
+        addSpottedButtonActivity()
+
+    }).catch(function(err) {
+        console.log(err);
+    });
 }
 
 /**
@@ -3185,30 +3198,16 @@ function viewSpottedDogs() {
 function addSpottedButtonActivity() {
 
     let seenItButtonActive = document.querySelectorAll('.seenIt')
-    console.log(seenItButtonActive)
     seenItButtonActive.forEach(function (button) {
 
         button.addEventListener('click', function() {
 
             allBreeds.getItem(button.id).then(function(record) {
-                console.log(record)
                 spotBreed(button.id, record)
                 // removeSpottedBreedFromAll(button.id)
                 document.querySelector('#messageBox').innerHTML += "Dog Spotted! Well Done! <br>"
             })
         })
-    })
-}
-
-/**
- * Takes the data from the data array and inserts it into indexeddb
- */
-function populateAllBreedsDB() {
-    dogBreeds.forEach(function (breed) {
-        breedName = breed.name;
-
-        allBreeds.setItem(breedName, breed)
-
     })
 }
 
@@ -3224,6 +3223,45 @@ function spotBreed(name, value) {
     });
 }
 
+//spottedBreeds Functions_____________________________________________________________
+
+function viewSpottedDogsButtonActivity() {
+    document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
+        console.log('hello');
+        viewSpottedBreeds();
+    })
+}
+
+function viewSpottedBreeds() {
+    document.querySelector('#resultList').innerHTML = ''
+
+    let breedArray = [];
+    spottedBreeds.iterate(function(value) {
+
+        breedArray.push(value);
+
+    }).then(function() {
+        let source = document.querySelector('#allBreedsTemplate').innerHTML;
+
+        let template = Handlebars.compile(source);
+
+        let html = template({data: breedArray});
+
+        document.querySelector('#resultList').innerHTML += html
+
+        addSpottedButtonActivity()
+
+    }).catch(function(err) {
+        console.log(err);
+    });
+}
+
+
+
+
+
+
+//Old/Diagnostic Functions_____________________________________________________________________
 /**
  * removes the spotted dog from the all breeds DB
  * @param name name of the breed, the key
@@ -3232,50 +3270,6 @@ function removeSpottedBreedFromAll(name) {
     allBreeds.removeItem(name).then(function() {
         // Run this code once the key has been removed.
         console.log('Key is cleared!');
-    }).catch(function(err) {
-        // This code runs if there were any errors
-        console.log(err);
-    });
-}
-
-/**
- * shows all the breeds in a db
- * @param db selects db to show breeds from
- */
-function viewAllBreeds(db) {
-    // let breedArray = [];
-    let breeds = '';
-    db.iterate(function(value) {
-        // Resulting key/value pair -- this callback
-        // will be executed for every item in the
-        // database.
-        // breedArray.push(value);
-        breeds += `<div id="tile" class="row justify-content-center">` +
-            `<div class="col-4">` +
-            `<a href="` + value.url + `" target="_blank"><img src="` + value.image + `"
-            alt="no picture available" class="tileImage"></a>
-            </div>
-            <div class="col-4">
-            <a href="` + value.url + `" target="_blank" class="tileName"><b>` + value.name + `</b></a>
-        </div>
-        <div class="col-4">
-            <button class="seenIt" id="` + value.name + `"><p class="textBoxButton"> I seen't it</p></button>
-        </div>
-        </div>`
-
-    }).then(function(breedArray) {
-        console.log('Iteration has completed');
-
-        // let source = document.querySelector('#resultsTemplate').innerHTML;
-        //
-        // let template = Handlebars.compile(source);
-        //
-        // let html = template(breedArray);
-        //
-        // document.querySelector('#resultList').innerHTML += html
-        document.querySelector('#resultList').innerHTML += breeds;
-        addSpottedButtonActivity()
-
     }).catch(function(err) {
         // This code runs if there were any errors
         console.log(err);
@@ -3299,11 +3293,6 @@ function viewBreed(db, breedName) {
         addSpottedButtonActivity();
     })
 }
-// let source = document.querySelector('#resultsTemplate').innerHTML
-//
-// let template = Handlebars.compile(source)
-//
-// let html = template(allBreedsArray);
-//
-// document.querySelector('#dogList').innerHTML += html
+
+
 
