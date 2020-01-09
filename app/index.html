@@ -11,7 +11,7 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script defer src="js/main.js"></script>
+    <script async src="js/main.js"></script>
     <title>Spot The Dog</title>
     <script id="resultsTemplate" type="text/x-handlebars-template">
 
@@ -37,30 +37,33 @@
     </script>
 </head>
 <body>
-<nav class="navbar  navbar-light rounded-bottom">
-    <a class="navbar-btn" href="" id="homePortal">
-        <img src="images/kennel.jpg" class="rounded" width="60" height="60" alt="A dogs home that takes you home">
-    </a>
-    <form class="form-inline d-flex justify-content-center my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search Dog Breeds" aria-label="Search">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-    </form>
-    <a class="navbar-btn" href="index.html" id="spottedDogsPortal">
-        <img src="images/dalmation.jpg" class="rounded" width="60" height="60" alt="A spotted dog that takes you to dogs spotted">
-    </a>
-</nav>
+<div class="backgroundCover">
+    <nav class="navbar  navbar-light rounded-bottom">
+        <a class="navbar-btn" href="" id="homePortal">
+            <img src="images/kennel.jpg" class="rounded" width="60" height="60" alt="A dogs home that takes you home">
+        </a>
+        <form class="form-inline d-flex justify-content-center my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Dog Breeds" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a class="navbar-btn" href="" id="spottedDogsPortal">
+            <img src="images/dalmation.jpg" class="rounded" width="60" height="60"
+                 alt="A spotted dog that takes you to dogs spotted">
+        </a>
+    </nav>
 
-<div class="container fadeIn">
-    <div class="row justify-content-center titleHome">
-        <h1 id="title">Spot the dog</h1>
-    </div>
-    <div class="row justify-content-center">
-        <div id="messageBox" class="container"></div>
-    </div>
+    <div class="container fadeIn">
+        <div class="row justify-content-center titleHome">
+            <h1 id="title">Spot the dog</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div id="messageBox" class="container"></div>
+        </div>
 
-    <div class="row justify-content-center" >
-        <div id="resultList" class="container"></div>
+        <div class="row justify-content-center">
+            <div id="resultList" class="container"></div>
 
+        </div>
     </div>
 </div>
 <!--<input type="file" accept="image/*;capture=camera">-->

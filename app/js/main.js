@@ -3165,11 +3165,12 @@ let spottedBreeds = localforage.createInstance({
 
 
 populateAllBreedsDB();
-viewAllBreeds(allBreeds)
+// viewAllBreeds(allBreeds)
+// viewAllBreeds(spottedBreeds)
 // spotBreed()
 
 // viewBreed(allBreeds, "AFFENPINSCHER")
-// viewSpottedDogs();
+viewSpottedDogs();
 
 function viewSpottedDogs() {
     document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
@@ -3179,7 +3180,7 @@ function viewSpottedDogs() {
 }
 
 /**
- * When the seen't it button is pressed the dog is added to spotted list and removed from all
+ * When the seen't it button is pressed the dog is added to spotted list
  */
 function addSpottedButtonActivity() {
 
@@ -3251,7 +3252,7 @@ function viewAllBreeds(db) {
         // breedArray.push(value);
         breeds += `<div id="tile" class="row justify-content-center">` +
             `<div class="col-4">` +
-            `<a href=` + value.url + `" target="_blank"><img src="` + value.image + `"
+            `<a href="` + value.url + `" target="_blank"><img src="` + value.image + `"
             alt="no picture available" class="tileImage"></a>
             </div>
             <div class="col-4">
