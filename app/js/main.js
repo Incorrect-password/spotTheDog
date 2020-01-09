@@ -3131,7 +3131,7 @@ let spottedBreeds = localforage.createInstance({
 
 
 populateAllBreedsDB();
-// viewAllBreeds(dogBreeds)
+viewAllBreeds(dogBreeds)
 
 viewSpottedDogsButtonActivity();
 
@@ -3154,7 +3154,7 @@ function populateAllBreedsDB() {
  * @param dogBreeds  the above array of data rather than the indexedDB version
  */
 function viewAllBreeds(dogBreeds) {
-    let source = document.querySelector('#spottedBreedsTemplate').innerHTML;
+    let source = document.querySelector('#allBreedsTemplate').innerHTML;
 
     let template = Handlebars.compile(source);
 
@@ -3241,7 +3241,7 @@ function viewSpottedBreeds() {
         breedArray.push(value);
 
     }).then(function() {
-        let source = document.querySelector('#allBreedsTemplate').innerHTML;
+        let source = document.querySelector('#spottedBreedsTemplate').innerHTML;
 
         let template = Handlebars.compile(source);
 
