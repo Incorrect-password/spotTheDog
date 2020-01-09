@@ -3223,6 +3223,8 @@ function addSpottedButtonActivity() {
  */
 function spotBreed(name, value) {
     spottedBreeds.setItem(name, value).then(function (value) {
+        document.querySelector('#a' + value.id).style.border = '3px solid green';
+
     }).catch(function(err) {
         console.log(err);
     });
