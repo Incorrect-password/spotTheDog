@@ -3128,13 +3128,28 @@ let spottedBreeds = localforage.createInstance({
     name: "spottedDogs"
 });
 
+allBreeds.length().then(function(numberOfKeys) {
+    if (numberOfKeys == 0) {
+        populateAllBreedsDB();
+        console.log('allBreeds db updated');
+    }else{
+        document.querySelector('#messageBox').innerHTML ='';
+    }
+
+    viewAllBreedsFromDB();
+    viewSpottedDogsButtonActivity();
+    addHomeButtonActivity();
+
+}).catch(function(err) {
+    console.log(err);
+});
 
 
-populateAllBreedsDB();
+
+
+
 // viewAllBreeds(dogBreeds)
-viewAllBreedsFromDB();
-viewSpottedDogsButtonActivity();
-addHomeButtonActivity();
+
 
 //allBreeds Functions_____________________________________________________________________
 
@@ -3145,7 +3160,10 @@ function populateAllBreedsDB() {
     dogBreeds.forEach(function (breed) {
         let breedName = breed.name;
 
-        allBreeds.setItem(breedName, breed)
+        allBreeds.setItem(breedName, breed).then(function() {
+
+            document.querySelector('#messageBox').innerHTML ='Click <a href="http://localhost:1234/spotTheDog/app/">Here</a> Or Home To Start';
+        })
 
     })
 }
