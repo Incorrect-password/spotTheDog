@@ -3178,7 +3178,7 @@ function viewAllBreedsFromDB() {
         breedArray.push(value);
 
     }).then(function() {
-        document.querySelector('#resultList').innerHTML = ''
+        document.querySelector('#resultList').innerHTML = '';
 
         let source = document.querySelector('#allBreedsTemplate').innerHTML;
 
@@ -3186,9 +3186,10 @@ function viewAllBreedsFromDB() {
 
         let html = template({data: breedArray});
 
-        document.querySelector('#resultList').innerHTML += html
+        document.querySelector('#resultList').innerHTML += html;
 
-        addSpottedButtonActivity()
+        addSpottedButtonActivity();
+
         breedArray.forEach(function(breed) {
             showsSpotted(breed.name);
         })
@@ -3214,7 +3215,7 @@ function showsSpotted(breed) {
 function addSpottedButtonActivity() {
     document.querySelector('#messageBox').innerHTML ='';
 
-    let seenItButtonActive = document.querySelectorAll('.seenIt')
+    let seenItButtonActive = document.querySelectorAll('.seenIt');
     seenItButtonActive.forEach(function (button) {
 
         button.addEventListener('click', function() {
@@ -3247,7 +3248,7 @@ function spotBreed(name, value) {
  */
 function addHomeButtonActivity() {
     document.querySelector('#homePortal').addEventListener('click', function () {
-        viewAllBreedsFromDB()
+        viewAllBreedsFromDB();
     })
 }
 
@@ -3282,9 +3283,9 @@ function viewSpottedBreeds() {
 
         let html = template({data: breedArray});
 
-        document.querySelector('#resultList').innerHTML += html
+        document.querySelector('#resultList').innerHTML += html;
 
-        notSeenItButtonActive()
+        notSeenItButtonActive();
 
     }).catch(function(err) {
         console.log(err);
@@ -3296,14 +3297,14 @@ function viewSpottedBreeds() {
  */
 function notSeenItButtonActive() {
 
-    let notSeenItButtonActive = document.querySelectorAll('.notSeenIt')
+    let notSeenItButtonActive = document.querySelectorAll('.notSeenIt');
     notSeenItButtonActive.forEach(function (button) {
 
         button.addEventListener('click', function() {
 
             deleteBreedFromSpotted(button.id);
 
-            viewSpottedBreeds()
+            viewSpottedBreeds();
         })
     })
 }
@@ -3370,9 +3371,9 @@ function viewAllBreeds(dogBreeds) {
 
     let html = template({data: dogBreeds});
 
-    document.querySelector('#resultList').innerHTML += html
+    document.querySelector('#resultList').innerHTML += html;
 
-    addSpottedButtonActivity()
+    addSpottedButtonActivity();
 }
 
 
