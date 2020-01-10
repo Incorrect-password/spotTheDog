@@ -51,12 +51,13 @@ div.titleHome {
   opacity: 0.75;
 }
 
-div#tile {
-  border: 2px solid white;
+div.tile {
+  border: 2px solid #eeeeee;
   background-color: #d5d5d588;
   border-radius: 5px;
   padding: 10px;
 }
+
 
 .tileImage {
   height: 80px;

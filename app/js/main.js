@@ -3128,13 +3128,28 @@ let spottedBreeds = localforage.createInstance({
     name: "spottedDogs"
 });
 
+allBreeds.length().then(function(numberOfKeys) {
+    if (numberOfKeys == 0) {
+        populateAllBreedsDB();
+        console.log('allBreeds db updated');
+    }else{
+        document.querySelector('#messageBox').innerHTML ='';
+    }
+
+    viewAllBreedsFromDB();
+    viewSpottedDogsButtonActivity();
+    addHomeButtonActivity();
+
+}).catch(function(err) {
+    console.log(err);
+});
 
 
-populateAllBreedsDB();
+
+
+
 // viewAllBreeds(dogBreeds)
-viewAllBreedsFromDB();
-viewSpottedDogsButtonActivity();
-addHomeButtonActivity();
+
 
 //allBreeds Functions_____________________________________________________________________
 
@@ -3145,25 +3160,12 @@ function populateAllBreedsDB() {
     dogBreeds.forEach(function (breed) {
         let breedName = breed.name;
 
-        allBreeds.setItem(breedName, breed)
+        allBreeds.setItem(breedName, breed).then(function() {
+
+            document.querySelector('#messageBox').innerHTML ='Click <a href="http://localhost:1234/spotTheDog/app/">Here</a> Or Home To Start';
+        })
 
     })
-}
-
-/**
- * displays all dog breeds in alphabetical order and makes them selectable as being seen
- * @param dogBreeds  the above array of data rather than the indexedDB version
- */
-function viewAllBreeds(dogBreeds) {
-    let source = document.querySelector('#allBreedsTemplate').innerHTML;
-
-    let template = Handlebars.compile(source);
-
-    let html = template({data: dogBreeds});
-
-    document.querySelector('#resultList').innerHTML += html
-
-    addSpottedButtonActivity()
 }
 
 /**
@@ -3190,10 +3192,23 @@ function viewAllBreedsFromDB() {
         document.querySelector('#resultList').innerHTML += html
 
         addSpottedButtonActivity()
-
+        breedArray.forEach(function(breed) {
+            showsSpotted(breed.name);
+        })
     }).catch(function(err) {
         console.log(err);
     });
+}
+
+/**
+ * shows which breeds have already been selected
+ */
+function showsSpotted(breed) {
+    spottedBreeds.getItem(breed).then(function(value) {
+        if (value != null) {
+            document.querySelector('#a' + value.id).style.border = '2px solid #32CD32';
+        }
+    })
 }
 
 /**
@@ -3223,11 +3238,16 @@ function addSpottedButtonActivity() {
  */
 function spotBreed(name, value) {
     spottedBreeds.setItem(name, value).then(function (value) {
+        document.querySelector('#a' + value.id).style.border = '3px solid #00FF00';
+
     }).catch(function(err) {
         console.log(err);
     });
 }
 
+/**
+ * sets up taking you back to homepage when home icon clicked
+ */
 function addHomeButtonActivity() {
     document.querySelector('#homePortal').addEventListener('click', function () {
         viewAllBreedsFromDB()
@@ -3236,12 +3256,18 @@ function addHomeButtonActivity() {
 
 //spottedBreeds Functions_____________________________________________________________
 
+/**
+ * sets up taking you to spotted dogs when icon is clicked
+ */
 function viewSpottedDogsButtonActivity() {
     document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
         viewSpottedBreeds();
     })
 }
 
+/**
+ * shows all spotted dogs
+ */
 function viewSpottedBreeds() {
     document.querySelector('#resultList').innerHTML = '';
     document.querySelector('#messageBox').innerHTML = '';
@@ -3268,6 +3294,9 @@ function viewSpottedBreeds() {
     });
 }
 
+/**
+ * causes not seen it button to delete breed from spotted list when clicked
+ */
 function notSeenItButtonActive() {
 
     let notSeenItButtonActive = document.querySelectorAll('.notSeenIt')
@@ -3282,6 +3311,10 @@ function notSeenItButtonActive() {
     })
 }
 
+/**
+ * deletes breed from spottedBreeds db
+ * @param breedName name of the breed
+ */
 function deleteBreedFromSpotted(breedName) {
     spottedBreeds.removeItem(breedName).then(function() {
         document.querySelector('#messageBox').innerHTML += "Wrong Dog Eh?";
@@ -3326,6 +3359,23 @@ function viewBreed(db, breedName) {
         document.querySelector('#resultList').innerHTML += html;
         addSpottedButtonActivity();
     })
+}
+
+
+/**
+ * displays all dog breeds in alphabetical order and makes them selectable as being seen
+ * @param dogBreeds  the above array of data rather than the indexedDB version
+ */
+function viewAllBreeds(dogBreeds) {
+    let source = document.querySelector('#allBreedsTemplate').innerHTML;
+
+    let template = Handlebars.compile(source);
+
+    let html = template({data: dogBreeds});
+
+    document.querySelector('#resultList').innerHTML += html
+
+    addSpottedButtonActivity()
 }
 
 
