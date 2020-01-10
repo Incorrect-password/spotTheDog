@@ -4,18 +4,24 @@ var cacheName = "spotTheDog";
 var cache = cacheName + "-" + version;
 var filesToCache = [
     "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
     "https://code.jquery.com/jquery-3.3.1.slim.min.js",
-    "http://localhost:1234/financeCalculator/app/css/style.css",
-    "http://localhost:1234/financeCalculator/app/js/dist/main.js",
-    "http://localhost:1234/financeCalculator/app/js/localforage.js",
-    "http://localhost:1234/financeCalculator/app/images/icons/_favicon.ico",
-    "http://localhost:1234/financeCalculator/app/images/icons/apple-icon-144x144.png",
     "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js",
-    "http://localhost:1234/financeCalculator/app/manifest.json",
-    "http://localhost:1234/financeCalculator/app/",
-    "http://localhost:1234/spotTheDog/app/index.html"
-];
 
+    "http://localhost:1234/spotTheDog/app/manifest.json",
+
+    "http://localhost:1234/spotTheDog/app/",
+    "http://localhost:1234/spotTheDog/app/index.html",
+    "http://localhost:1234/spotTheDog/app/js/main.js",
+    "http://localhost:1234/spotTheDog/app/js/localforage.js",
+    "http://localhost:1234/spotTheDog/app/css/style.css",
+
+    "http://localhost:1234/spotTheDog/app/images/kennel.jpg",
+    "http://localhost:1234/spotTheDog/app/images/dalmation.jpg",
+    "http://localhost:1234/spotTheDog/app/images/pokeball.png",
+    "http://localhost:1234/spotTheDog/app/images/willow.jpg",
+    "http://localhost:1234/spotTheDog/app/images/icons/spot-icon-48x48.png"
+];
 
 self.addEventListener("install", function(event) {
     log('[ServiceWorker] Installing....');
@@ -43,8 +49,7 @@ self.addEventListener("fetch", function(event) {
 
                      return fetch(event.request)
                  }
-                })
+            })
         )
     }
-
 })
