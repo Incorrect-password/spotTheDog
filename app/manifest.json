@@ -9,34 +9,39 @@
   "start_url": "http://localhost:1234/spotTheDog/app/",
   "icons": [
     {
-    "src": "images/icons/spot-icon-16x16.ico",
+    "src": "images/icons/spot-icon-16x16.png",
     "sizes": "16x16",
-    "type": "image/ico"
+    "type": "image/png"
     },
     {
-    "src": "images/icons/spot-icon-48x48.ico",
+    "src": "images/icons/spot-icon-48x48.png",
     "sizes": "48x48",
-    "type": "image/ico"
+    "type": "image/png"
     },
     {
-    "src": "images/icons/spot-icon-64x64.ico",
+    "src": "images/icons/spot-icon-64x64.png",
     "sizes": "64x64",
-    "type": "image/ico"
+    "type": "image/png"
     },
     {
-    "src": "images/icons/spot-icon-128x128.ico",
+    "src": "images/icons/spot-icon-128x128.png",
     "sizes": "128x128",
-    "type": "image/ico"
+    "type": "image/png"
     },
     {
-    "src": "images/icons/spot-icon-192x192.ico",
+      "src": "images/icons/spot-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+    "src": "images/icons/spot-icon-192x192.png",
     "sizes": "192x192",
-    "type": "image/ico"
+    "type": "image/png"
     },
     {
-      "src": "images/icons/spot-icon-256x256.ico",
+      "src": "images/icons/spot-icon-256x256.png",
       "sizes": "256x256",
-      "type": "image/ico"
+      "type": "image/png"
     }
   ],
   "splash_pages": null
