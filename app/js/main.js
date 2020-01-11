@@ -3260,6 +3260,8 @@ function addHomeButtonActivity() {
 function viewSpottedDogsButtonActivity() {
     document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
         viewSpottedBreeds();
+        spottedCount();
+
     })
 }
 
@@ -3286,7 +3288,6 @@ function viewSpottedBreeds() {
         document.querySelector('#resultList').innerHTML += html;
 
         notSeenItButtonActive();
-        spottedCount()
 
     }).catch(function(err) {
         console.log(err);
@@ -3330,13 +3331,13 @@ function deleteBreedFromSpotted(breedName) {
 function spottedCount() {
     spottedBreeds.length().then(function(length) {
         console.log(length)
-        // if (length < 10){
-        //     document.querySelector('#listCounter').innerHtml = "<p>You have seen " + length + " dogs. You are a n00b</p>";
-        // }
+        if (length < 10){
+            document.querySelector('#listCounter').innerHtml = "<p>You have seen " + length + " dogs. You are a n00b</p>";
+        }
     })
 }
 
-
+document.querySelector('#listCounter').innerHtml = "yes";
 
 //Old/Diagnostic Functions_____________________________________________________________________
 /**
