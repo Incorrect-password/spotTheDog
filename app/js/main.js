@@ -61,7 +61,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/007g03.jpg",
+            "image": "http://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html",
             "pdf": "http://www.fci.be/Nomenclature/Standards/007g03-en.pdf"
         },
         {
@@ -3286,6 +3286,7 @@ function viewSpottedBreeds() {
         document.querySelector('#resultList').innerHTML += html;
 
         notSeenItButtonActive();
+        spottedCount()
 
     }).catch(function(err) {
         console.log(err);
@@ -3315,14 +3316,25 @@ function notSeenItButtonActive() {
  */
 function deleteBreedFromSpotted(breedName) {
     spottedBreeds.removeItem(breedName).then(function() {
-        document.querySelector('#messageBox').innerHTML += "Wrong Dog Eh?";
+        document.querySelector('#messageBox').innerHTML = "Wrong Dog Eh?";
 
     }).catch(function(err) {
         console.log(err);
     });
 }
 
+//count length in a var
+//if statement to see which cat it is
+//pront count and rank in new box
 
+function spottedCount() {
+    spottedBreeds.length().then(function(length) {
+        console.log(length)
+        // if (length < 10){
+        //     document.querySelector('#listCounter').innerHtml = "<p>You have seen " + length + " dogs. You are a n00b</p>";
+        // }
+    })
+}
 
 
 

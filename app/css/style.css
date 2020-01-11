@@ -97,6 +97,19 @@ button.seenToggle:active {
   transform: scale(1.3);
 }
 
+#listCounter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #27262b;
+  opacity: 0.75;
+  color: #f5ede7;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 1.5rem;
+
+}
+
 .fadeIn {
   animation-name: fadeIn;
   animation-duration: 2s; }
