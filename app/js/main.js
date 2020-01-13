@@ -1592,7 +1592,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "PORTUGAL",
             "url": "http://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DOG-187.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/187g07.jpg",
+            "image": "../app/images/breedImgs/PORTUGUESEPOINTINGDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/187g07-en.pdf"
         },
         {
@@ -1601,7 +1601,7 @@ var dogBreeds =
             "section": "Short-haired Sighthounds",
             "country": "MOROCCO",
             "url": "http://www.fci.be/en/nomenclature/SLOUGHI-188.html",
-            "image": "",
+            "image": "../app/images/breedImgs/SLOUGHI.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/188g10-en.pdf"
         },
         {
@@ -1610,7 +1610,7 @@ var dogBreeds =
             "section": "Nordic Watchdogs and Herders",
             "country": "FINLAND",
             "url": "http://www.fci.be/en/nomenclature/FINNISH-LAPPONIAN-DOG-189.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/189g05-1.jpg",
+            "image": "../app/images/breedImgs/FINNISHLAPPONIANDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/189g05-en.pdf"
         },
         {
@@ -1619,7 +1619,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "GERMANY",
             "url": "http://www.fci.be/en/nomenclature/HOVAWART-190.html",
-            "image": "",
+            "image": "../app/images/breedImgs/HOVAWART.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/190g02-en.pdf"
         },
         {
@@ -1628,7 +1628,7 @@ var dogBreeds =
             "section": "Cattledogs (except Swiss Cattledogs)",
             "country": "BELGIUM, FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BOUVIER-DES-FLANDRES-191.html",
-            "image": "",
+            "image": "../app/images/breedImgs/OUVIERDESFLANDRES.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/191g01-en.pdf"
         },
         {
@@ -1637,7 +1637,7 @@ var dogBreeds =
             "section": "Kromfohrländer",
             "country": "GERMANY",
             "url": "http://www.fci.be/en/nomenclature/KROMFOHRLANDER-192.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/192g09.jpg",
+            "image": "../app/images/breedImgs/KROMFOHRLÄNDER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/192g09-en.pdf"
         },
         {
@@ -1646,7 +1646,7 @@ var dogBreeds =
             "section": "Long-haired or fringed Sighthounds",
             "country": "RUSSIA",
             "url": "http://www.fci.be/en/nomenclature/BORZOI-RUSSIAN-HUNTING-SIGHTHOUND-193.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/193g10.jpg",
+            "image": "../app/images/breedImgs/BORZOIRUSSIANHUNTINGSIGHTHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/193g10-en.pdf"
         },
         {
@@ -1655,7 +1655,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/BERGAMASCO-SHEPHERD-DOG-194.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/194g01-1.jpg",
+            "image": "../app/images/breedImgs/BERGAMASCOSHEPHERDDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/194g01-en.pdf"
         },
         {
@@ -1664,7 +1664,7 @@ var dogBreeds =
             "section": "European Spitz",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/ITALIAN-VOLPINO-195.html",
-            "image": "",
+            "image": "../app/images/breedImgs/ITALIANVOLPINO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/195g05-en.pdf"
         },
         {
@@ -1673,7 +1673,7 @@ var dogBreeds =
             "section": "Bichons and related breeds",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/BOLOGNESE-196.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BOLOGNESE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/196g09-en.pdf"
         },
         {
@@ -1682,7 +1682,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/NEAPOLITAN-MASTIFF-197.html",
-            "image": "",
+            "image": "../app/images/breedImgs/NEAPOLITANMASTIFF.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/197g02-en.pdf"
         },
         {
@@ -1691,7 +1691,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/ITALIAN-ROUGH-HAIRED-SEGUGIO-198.html",
-            "image": "",
+            "image": "../app/images/breedImgs/ITALIANROUGHHAIREDSEGUGIO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/198g06-en.pdf"
         },
         {
@@ -1700,7 +1700,7 @@ var dogBreeds =
             "section": "Primitive type - Hunting Dogs",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/CIRNECO-DELL-ETNA-199.html",
-            "image": "",
+            "image": "../app/images/breedImgs/CIRNECODELL'ETNA.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/199g05-en.pdf"
         },
         {
@@ -1709,7 +1709,7 @@ var dogBreeds =
             "section": "Short-haired Sighthounds",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html",
-            "image": "",
+            "image": "../app/images/breedImgs/ITALIANSIGHTHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/200g10-en.pdf"
         },
         {
@@ -1718,7 +1718,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/MAREMMA-AND-THE-ABRUZZES-SHEEPDOG-201.html",
-            "image": "",
+            "image": "../app/images/breedImgs/MAREMMAANDTHEABRUZZESSHEEPDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/201g01-en.pdf"
         },
         {
@@ -1727,7 +1727,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-202.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/202g07.jpg",
+            "image": "../app/images/breedImgs/ITALIANPOINTINGDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/202g07-en.pdf"
         },
         {
@@ -1736,7 +1736,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "NORWAY",
             "url": "http://www.fci.be/en/nomenclature/NORWEGIAN-HOUND-203.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/203g06.jpg",
+            "image": "../app/images/breedImgs/NORWEGIANHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/203g06-en.pdf"
         },
         {
@@ -1745,7 +1745,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "SPAIN",
             "url": "http://www.fci.be/en/nomenclature/SPANISH-HOUND-204.html",
-            "image": "",
+            "image": "../app/images/breedImgs/SPANISHHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/204g06-en.pdf"
         },
         {
@@ -1754,7 +1754,7 @@ var dogBreeds =
             "section": "Asian Spitz and related breeds",
             "country": "CHINA",
             "url": "http://www.fci.be/en/nomenclature/CHOW-CHOW-205.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/205g05.jpg",
+            "image": "../app/images/breedImgs/CHOWCHOW.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/205g05-en.pdf"
         },
         {
@@ -1763,7 +1763,7 @@ var dogBreeds =
             "section": "Japan Chin and Pekingese",
             "country": "JAPAN",
             "url": "http://www.fci.be/en/nomenclature/JAPANESE-CHIN-206.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/206g09.jpg",
+            "image": "../app/images/breedImgs/JAPANESECHIN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/206g09-en.pdf"
         },
         {
@@ -1772,7 +1772,7 @@ var dogBreeds =
             "section": "Japan Chin and Pekingese",
             "country": "CHINA",
             "url": "http://www.fci.be/en/nomenclature/PEKINGESE-207.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/207g09.jpg",
+            "image": "../app/images/breedImgs/PEKINGESE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/207g09-en.pdf"
         },
         {
@@ -1781,7 +1781,7 @@ var dogBreeds =
             "section": "Tibetan breeds",
             "country": "Tibet (China)",
             "url": "http://www.fci.be/en/nomenclature/SHIH-TZU-208.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/208g09.jpg",
+            "image": "../app/images/breedImgs/SHIHTZU.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/208g09-en.pdf"
         },
         {
@@ -1790,7 +1790,7 @@ var dogBreeds =
             "section": "Tibetan breeds",
             "country": "Tibet (China)",
             "url": "http://www.fci.be/en/nomenclature/TIBETAN-TERRIER-209.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/209g09.jpg",
+            "image": "../app/images/breedImgs/TIBETANTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/209g09-en.pdf"
         },
         {
@@ -1799,7 +1799,7 @@ var dogBreeds =
             "section": "Nordic Sledge Dogs",
             "country": "CANADA",
             "url": "http://www.fci.be/en/nomenclature/CANADIAN-ESKIMO-DOG-211.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/211g05.jpg",
+            "image": "../app/images/breedImgs/CANADIANESKIMODOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/211g05-en.pdf"
         },
         {
@@ -1808,7 +1808,7 @@ var dogBreeds =
             "section": "Nordic Sledge Dogs",
             "country": "NORTHERN RUSSIA, SIBERIA",
             "url": "http://www.fci.be/en/nomenclature/SAMOYED-212.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/212g05.jpg",
+            "image": "../app/images/breedImgs/SAMOYED.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/212g05-en.pdf"
         },
         {
@@ -1817,7 +1817,7 @@ var dogBreeds =
             "section": "Leash (scent) Hounds",
             "country": "GERMANY",
             "url": "http://www.fci.be/en/nomenclature/HANOVERIAN-SCENT-HOUND-213.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/213g06-1.jpg",
+            "image": "../app/images/breedImgs/HANOVERIANSCENTHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/213g06-en.pdf"
         },
         {
@@ -1826,7 +1826,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "GREECE",
             "url": "http://www.fci.be/en/nomenclature/HELLENIC-HOUND-214.html",
-            "image": "",
+            "image": "../app/images/breedImgs/HELLENICHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/214g06-en.pdf"
         },
         {
