@@ -61,7 +61,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html",
-            "image": "http://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html",
+            "image": "http://www.fci.be/Nomenclature/Illustrations/007g03.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/007g03-en.pdf"
         },
         {
@@ -3330,14 +3330,21 @@ function deleteBreedFromSpotted(breedName) {
 
 function spottedCount() {
     spottedBreeds.length().then(function(length) {
-        console.log(length)
         if (length < 10){
-            document.querySelector('#listCounter').innerHtml = "<p>You have seen " + length + " dogs. You are a n00b</p>";
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You are a n00b</p>";
+        } else if (length < 25) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You've been outside</p>";
+        } else if (length < 50) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You've seen a lot of doggies</p>";
+        } else if (length < 200) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You're a master spotter</p>";
+        } else if (length <345) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You need to get a life</p>";
+        } else {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You have seen all the doggos</p>";
         }
     })
 }
-
-document.querySelector('#listCounter').innerHtml = "yes";
 
 //Old/Diagnostic Functions_____________________________________________________________________
 /**
