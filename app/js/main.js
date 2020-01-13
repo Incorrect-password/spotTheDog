@@ -25,7 +25,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "IRELAND",
             "url": "http://www.fci.be/en/nomenclature/KERRY-BLUE-TERRIER-3.html",
-            "image": "",
+            "image": "../app/images/breedImgs/kerryBlueTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/003g03-en.pdf"
         },
         {
@@ -34,7 +34,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/CAIRN-TERRIER-4.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/004g03.jpg",
+            "image": "../app/images/breedImgs/cairnTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/004g03-en.pdf"
         },
         {
@@ -43,7 +43,7 @@ var dogBreeds =
             "section": "Flushing Dogs",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/ENGLISH-COCKER-SPANIEL-5.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/005g08.jpg",
+            "image": "../app/images/breedImgs/englishCockerSpaniel.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/005g08-en.pdf"
         },
         {
@@ -52,7 +52,7 @@ var dogBreeds =
             "section": "British and Irish Pointers and Setters",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/GORDON-SETTER-6.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/006g07.jpg",
+            "image": "../app/images/breedImgs/gordonSetter.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/006g07-en.pdf"
         },
         {
@@ -70,7 +70,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "AUSTRALIA",
             "url": "http://www.fci.be/en/nomenclature/AUSTRALIAN-TERRIER-8.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/008g03.jpg",
+            "image": "../app/images/breedImgs/australianTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/008g03-en.pdf"
         },
         {
@@ -79,7 +79,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/BEDLINGTON-TERRIER-9.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/009g03.jpg",
+            "image": "../app/images/breedImgs/bedlingtonTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/009g03-en.pdf"
         },
         {
@@ -88,7 +88,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/BORDER-TERRIER-10.html",
-            "image": "",
+            "image": "../app/images/breedImgs/borderTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/010g03-en.pdf"
         },
         {
@@ -97,7 +97,7 @@ var dogBreeds =
             "section": "Bull type Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/BULL-TERRIER-11.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/011g03.jpg",
+            "image": "../app/images/breedImgs/bullTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/011g03-en.pdf"
         },
         {
@@ -106,7 +106,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/FOX-TERRIER-SMOOTH-12.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/012g03.jpg",
+            "image": "../app/images/breedImgs/foxTerrierSmooth.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/012g03-en.pdf"
         },
         {
@@ -115,7 +115,8 @@ var dogBreeds =
             "section": "Toy Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/ENGLISH-TOY-TERRIER-BLACK-TAN-13.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/013g03.jpg",
+            "image": "../app/images/breedImgs/englishToyTerrierBlackandTan.jpg" +
+                "",
             "pdf": "http://www.fci.be/Nomenclature/Standards/013g03-en.pdf"
         },
         {
@@ -124,7 +125,7 @@ var dogBreeds =
             "section": "Nordic Watchdogs and Herders",
             "country": "SWEDEN",
             "url": "http://www.fci.be/en/nomenclature/SWEDISH-VALLHUND-14.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/014g05.jpg",
+            "image": "../app/images/breedImgs/SWEDISHVALLHUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/014g05-en.pdf"
         },
         {
@@ -133,7 +134,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/BELGIAN-SHEPHERD-DOG-15.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BELGIANSHEPHERDDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/015g01-en.pdf"
         },
         {
@@ -142,7 +143,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/OLD-ENGLISH-SHEEPDOG-16.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/016g01.jpg",
+            "image": "../app/images/breedImgs/OLDENGLISHSHEEPDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/016g01-en.pdf"
         },
         {
@@ -151,7 +152,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/GRIFFON-NIVERNAIS-17.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/017g06.jpg",
+            "image": "../app/images/breedImgs/GRIFFONNIVERNAIS.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/017g06-en.pdf"
         },
         {
@@ -160,7 +161,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BRIQUET-GRIFFON-VENDEEN-19.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/019g06.jpg",
+            "image": "../app/images/breedImgs/BRIQUETGRIFFONVENDEEN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/019g06-en.pdf"
         },
         {
@@ -169,7 +170,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/ARIEGEOIS-20.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/020g06.jpg",
+            "image": "../app/images/breedImgs/ARIEGEOIS.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/020g06-en.pdf"
         },
         {
@@ -178,7 +179,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/GASCON-SAINTONGEOIS-21.html",
-            "image": "",
+            "image": "../app/images/breedImgs/GASCONSAINTONGEOIS.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/021g06-en.pdf"
         },
         {
@@ -187,7 +188,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/GREAT-GASCONY-BLUE-22.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/022g06.jpg",
+            "image": "../app/images/breedImgs/GREATGASCONYBLUE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/022g06-en.pdf"
         },
         {
@@ -196,7 +197,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/POITEVIN-24.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/024g06.jpg",
+            "image": "../app/images/breedImgs/POITEVIN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/024g06-en.pdf"
         },
         {
@@ -205,7 +206,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BILLY-25.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/025g06.jpg",
+            "image": "../app/images/breedImgs/BILLY.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/025g06-en.pdf"
         },
         {
@@ -214,7 +215,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/ARTOIS-HOUND-28.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/028g06.jpg",
+            "image": "../app/images/breedImgs/ARTOISHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/028g06-en.pdf"
         },
         {
@@ -223,7 +224,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/PORCELAINE-30.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/030g06.jpg",
+            "image": "../app/images/breedImgs/PORCELAINE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/030g06-en.pdf"
         },
         {
@@ -232,7 +233,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/SMALL-BLUE-GASCONY-31.html",
-            "image": "",
+            "image": "../app/images/breedImgs/SMALLBLUEGASCONY.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/031g06-en.pdf"
         },
         {
@@ -241,7 +242,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BLUE-GASCONY-GRIFFON-32.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BLUEGASCONYGRIFFON.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/032g06-en.pdf"
         },
         {
@@ -250,7 +251,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/GRAND-BASSET-GRIFFON-VENDEEN-33.html",
-            "image": "",
+            "image": "../app/images/breedImgs/GRANDBASSETGRIFFONVENDEEN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/033g06-en.pdf"
         },
         {
@@ -259,7 +260,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/NORMAN-ARTESIEN-BASSET-34.html",
-            "image": "",
+            "image": "../app/images/breedImgs/NORMANARTESIENBASSET.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/034g06-en.pdf"
         },
         {
@@ -268,7 +269,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BLUE-GASCONY-BASSET-35.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BLUEGASCONYBASSET.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/035g06-en.pdf"
         },
         {
@@ -277,7 +278,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BASSET-FAUVE-DE-BRETAGNE-36.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BASSETFAUVEDEBRETAGNE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/036g06-en.pdf"
         },
         {
@@ -286,7 +287,7 @@ var dogBreeds =
             "section": "Water Dogs",
             "country": "PORTUGAL",
             "url": "http://www.fci.be/en/nomenclature/PORTUGUESE-WATER-DOG-37.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/037g08.jpg",
+            "image": "../app/images/breedImgs/PORTUGUESEWATERDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/037g08-en.pdf"
         },
         {
@@ -295,7 +296,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/WELSH-CORGI-CARDIGAN-38.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/038g01.jpg",
+            "image": "../app/images/breedImgs/WELSHCORGI(CARDIGAN).jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/038g01-en.pdf"
         },
         {
@@ -304,7 +305,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/WELSH-CORGI-PEMBROKE-39.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/039g01.jpg",
+            "image": "../app/images/breedImgs/WELSHCORGI(PEMBROKE).jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/039g01-en.pdf"
         },
         {
@@ -313,7 +314,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "IRELAND",
             "url": "http://www.fci.be/en/nomenclature/IRISH-SOFT-COATED-WHEATEN-TERRIER-40.html",
-            "image": "",
+            "image": "../app/images/breedImgs/IRISHSOFTCOATEDWHEATENTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/040g03-en.pdf"
         },
         {
@@ -322,7 +323,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "MACEDONIA, SERBIA",
             "url": "http://www.fci.be/en/nomenclature/YUGOSLAVIAN-SHEPHERD-DOG-SHARPLANINA-41.html",
-            "image": "",
+            "image": "../app/images/breedImgs/YUGOSLAVIANSHEPHERDDOGSHARPLANINA.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/041g02-en.pdf"
         },
         {
@@ -331,7 +332,7 @@ var dogBreeds =
             "section": "Nordic Hunting Dogs",
             "country": "SWEDEN",
             "url": "http://www.fci.be/en/nomenclature/JAMTHUND-42.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/042g05.jpg",
+            "image": "../app/images/breedImgs/JÄMTHUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/042g05-en.pdf"
         },
         {
@@ -340,7 +341,7 @@ var dogBreeds =
             "section": "Primitive type",
             "country": "CENTRAL AFRICA",
             "url": "http://www.fci.be/en/nomenclature/BASENJI-43.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BASENJI.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/043g05-en.pdf"
         },
         {
@@ -349,7 +350,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BERGER-DE-BEAUCE-44.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BERGERDEBEAUCE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/044g01-en.pdf"
         },
         {
@@ -358,7 +359,7 @@ var dogBreeds =
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/BERNESE-MOUNTAIN-DOG-45.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/045g02.jpg",
+            "image": "../app/images/breedImgs/BERNESEMOUNTAINDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/045g02-en.pdf"
         },
         {
@@ -367,7 +368,7 @@ var dogBreeds =
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/APPENZELL-CATTLE-DOG-46.html",
-            "image": "",
+            "image": "../app/images/breedImgs/APPENZELLCATTLEDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/046g02-en.pdf"
         },
         {
@@ -376,7 +377,7 @@ var dogBreeds =
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/047g02.jpg",
+            "image": "../app/images/breedImgs/ENTLEBUCHCATTLEDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/047g02-en.pdf"
         },
         {
@@ -385,7 +386,7 @@ var dogBreeds =
             "section": "Nordic Hunting Dogs",
             "country": "FINLAND",
             "url": "http://www.fci.be/en/nomenclature/KARELIAN-BEAR-DOG-48.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/048g05-1.jpg",
+            "image": "../app/images/breedImgs/KARELIANBEARDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/048g05-en.pdf"
         },
         {
@@ -394,7 +395,7 @@ var dogBreeds =
             "section": "Nordic Hunting Dogs",
             "country": "FINLAND",
             "url": "http://www.fci.be/en/nomenclature/FINNISH-SPITZ-49.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/049g05-1.jpg",
+            "image": "../app/images/breedImgs/../app/images/breedImgs/FINNISHSPITZ.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/049g05-en.pdf"
         },
         {
@@ -403,7 +404,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "CANADA",
             "url": "http://www.fci.be/en/nomenclature/NEWFOUNDLAND-50.html",
-            "image": "",
+            "image": "../app/images/breedImgs/NEWFOUNDLAND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/050g02-en.pdf"
         },
         {
@@ -412,7 +413,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FINLAND",
             "url": "http://www.fci.be/en/nomenclature/FINNISH-HOUND-51.html",
-            "image": "",
+            "image": "../app/images/breedImgs/FINNISHHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/051g06-en.pdf"
         },
         {
@@ -421,7 +422,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "POLAND",
             "url": "http://www.fci.be/en/nomenclature/POLISH-HOUND-52.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/052g06.jpg",
+            "image": "../app/images/breedImgs/POLISHHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/052g06-en.pdf"
         },
         {
@@ -430,7 +431,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "HUNGARY",
             "url": "http://www.fci.be/en/nomenclature/KOMONDOR-53.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/053g01.jpg",
+            "image": "../app/images/breedImgs/KOMONDOR.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/053g01-en.pdf"
         },
         {
@@ -439,7 +440,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "HUNGARY",
             "url": "http://www.fci.be/en/nomenclature/KUVASZ-54.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/054g01.jpg",
+            "image": "../app/images/breedImgs/KUVASZ.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/054g01-en.pdf"
         },
         {
@@ -448,7 +449,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "HUNGARY",
             "url": "http://www.fci.be/en/nomenclature/PULI-55.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/055g01.jpg",
+            "image": "../app/images/breedImgs/PULI.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/055g01-en.pdf"
         },
         {
@@ -457,7 +458,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "HUNGARY",
             "url": "http://www.fci.be/en/nomenclature/PUMI-56.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/056g01.jpg",
+            "image": "../app/images/breedImgs/PUMI.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/056g01-en.pdf"
         },
         {
@@ -466,7 +467,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "HUNGARY",
             "url": "http://www.fci.be/en/nomenclature/HUNGARIAN-SHORT-HAIRED-POINTER-VIZSLA-57.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/057g07.jpg",
+            "image": "../app/images/breedImgs/HUNGARIANSHORTHAIREDPOINTER(VIZSLA).jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/057g07-en.pdf"
         },
         {
@@ -475,7 +476,7 @@ var dogBreeds =
             "section": "Swiss Mountain- and Cattledogs",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/GREAT-SWISS-MOUNTAIN-DOG-58.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/058g02.jpg",
+            "image": "../app/images/breedImgs/GREATSWISSMOUNTAINDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/058g02-en.pdf"
         },
         {
@@ -484,7 +485,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/SWISS-HOUND-59.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/059g06-1.jpg",
+            "image": "../app/images/breedImgs/SWISSHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/059g06-en.pdf"
         },
         {
@@ -493,7 +494,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/SMALL-SWISS-HOUND-60.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/060g06-1.jpg",
+            "image": "../app/images/breedImgs/SMALLSWISSHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/060g06-en.pdf"
         },
         {
@@ -502,7 +503,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "SWITZERLAND",
             "url": "http://www.fci.be/en/nomenclature/ST-BERNARD-61.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/061g02-1.jpg",
+            "image": "../app/images/breedImgs/STBERNARD.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/061g02-en.pdf"
         },
         {
@@ -511,7 +512,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "AUSTRIA",
             "url": "http://www.fci.be/en/nomenclature/COARSE-HAIRED-STYRIAN-HOUND-62.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/062g06.jpg",
+            "image": "../app/images/breedImgs/COARSEHAIREDSTYRIANHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/062g06-en.pdf"
         },
         {
@@ -520,7 +521,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "AUSTRIA",
             "url": "http://www.fci.be/en/nomenclature/AUSTRIAN-BLACK-AND-TAN-HOUND-63.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/063g06.jpg",
+            "image": "../app/images/breedImgs/AUSTRIANBLACKANDTANHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/063g06-en.pdf"
         },
         {
@@ -529,7 +530,7 @@ var dogBreeds =
             "section": "Pinscher and Schnauzer type",
             "country": "AUSTRIA",
             "url": "http://www.fci.be/en/nomenclature/AUSTRIAN-PINSCHER-64.html",
-            "image": "",
+            "image": "../app/images/breedImgs/AUSTRIAN PINSCHER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/064g02-en.pdf"
         },
         {
@@ -538,7 +539,7 @@ var dogBreeds =
             "section": "Bichons and related breeds",
             "country": "CENTRAL MEDITERRANEAN BASIN",
             "url": "http://www.fci.be/en/nomenclature/MALTESE-65.html",
-            "image": "",
+            "image": "../app/images/breedImgs/MALTESE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/065g09-en.pdf"
         },
         {
@@ -547,7 +548,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/FAWN-BRITTANY-GRIFFON-66.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/066g06.jpg",
+            "image": "../app/images/breedImgs/FAWNBRITTANYGRIFFON.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/066g06-en.pdf"
         },
         {
@@ -556,7 +557,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/PETIT-BASSET-GRIFFON-VENDEEN-67.html",
-            "image": "",
+            "image": "../app/images/breedImgs/PETITBASSETGRIFFONVENDEEN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/067g06-en.pdf"
         },
         {
@@ -565,7 +566,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "AUSTRIA",
             "url": "http://www.fci.be/en/nomenclature/TYROLEAN-HOUND-68.html",
-            "image": "",
+            "image": "../app/images/breedImgs/TYROLEANHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/068g06-en.pdf"
         },
         {
@@ -574,7 +575,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/LAKELAND-TERRIER-70.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/070g03.jpg",
+            "image": "../app/images/breedImgs/LAKELANDTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/070g03-en.pdf"
         },
         {
@@ -583,7 +584,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/MANCHESTER-TERRIER-71.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/071g03.jpg",
+            "image": "../app/images/breedImgs/MANCHESTERTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/071g03-en.pdf"
         },
         {
@@ -592,7 +593,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/NORWICH-TERRIER-72.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/072g03.jpg",
+            "image": "../app/images/breedImgs/NORWICHTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/072g03-en.pdf"
         },
         {
@@ -601,7 +602,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/SCOTTISH-TERRIER-73.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/073g03.jpg",
+            "image": "../app/images/breedImgs/SCOTTISHTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/073g03-en.pdf"
         },
         {
@@ -610,7 +611,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/SEALYHAM-TERRIER-74.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/074g03.jpg",
+            "image": "../app/images/breedImgs/SEALYHAMTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/074g03-en.pdf"
         },
         {
@@ -619,7 +620,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/SKYE-TERRIER-75.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/075g03.jpg",
+            "image": "../app/images/breedImgs/SKYETERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/075g03-en.pdf"
         },
         {
@@ -628,7 +629,7 @@ var dogBreeds =
             "section": "Bull type Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/STAFFORDSHIRE-BULL-TERRIER-76.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/076g03.jpg",
+            "image": "../app/images/breedImgs/STAFFORDSHIREBULLTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/076g03-en.pdf"
         },
         {
@@ -637,7 +638,7 @@ var dogBreeds =
             "section": "Continental Toy Spaniel and Russian Toy",
             "country": "BELGIUM, FRANCE",
             "url": "http://www.fci.be/en/nomenclature/CONTINENTAL-TOY-SPANIEL-77.html",
-            "image": "",
+            "image": "../app/images/breedImgs/CONTINENTALTOYSPANIEL.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/077g09-en.pdf"
         },
         {
@@ -646,7 +647,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/WELSH-TERRIER-78.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/078g03.jpg",
+            "image": "../app/images/breedImgs/WELSHTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/078g03-en.pdf"
         },
         {
@@ -655,7 +656,7 @@ var dogBreeds =
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/GRIFFON-BRUXELLOIS-80.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/080g09-1.jpg",
+            "image": "../app/images/breedImgs/GRIFFONBRUXELLOIS.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/080g09-en.pdf"
         },
         {
@@ -664,7 +665,7 @@ var dogBreeds =
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/GRIFFON-BELGE-81.html",
-            "image": "",
+            "image": "../app/images/breedImgs/GRIFFONBELGE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/081g09-en.pdf"
         },
         {
@@ -673,7 +674,7 @@ var dogBreeds =
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/PETIT-BRABANCON-82.html",
-            "image": "",
+            "image": "../app/images/breedImgs/PETITBRABANÇON.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/082g09-en.pdf"
         },
         {
@@ -682,7 +683,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/SCHIPPERKE-83.html",
-            "image": "",
+            "image": "../app/images/breedImgs/SCHIPPERKE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/083g01-en.pdf"
         },
         {
@@ -691,7 +692,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/BLOODHOUND-84.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BLOODHOUND.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/084g06-en.pdf"
         },
         {
@@ -700,7 +701,7 @@ var dogBreeds =
             "section": "Small sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/WEST-HIGHLAND-WHITE-TERRIER-85.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/085g03.jpg",
+            "image": "../app/images/breedImgs/WESTHIGHLANDWHITETERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/085g03-en.pdf"
         },
         {
@@ -709,7 +710,7 @@ var dogBreeds =
             "section": "Toy Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/YORKSHIRE-TERRIER-86.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/086g03.jpg",
+            "image": "../app/images/breedImgs/YORKSHIRETERRIERjpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/086g03-en.pdf"
         },
         {
@@ -718,7 +719,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "SPAIN",
             "url": "http://www.fci.be/en/nomenclature/CATALAN-SHEEPDOG-87.html",
-            "image": "",
+            "image": "../app/images/breedImgs/CATALANSHEEPDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/087g01-en.pdf"
         },
         {
@@ -727,7 +728,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/SHETLAND-SHEEPDOG-88.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/088g01.jpg",
+            "image": "../app/images/breedImgs/SHETLANDSHEEPDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/088g01-en.pdf"
         },
         {
@@ -736,7 +737,7 @@ var dogBreeds =
             "section": "Primitive type - Hunting Dogs",
             "country": "SPAIN",
             "url": "http://www.fci.be/en/nomenclature/IBIZAN-PODENCO-89.html",
-            "image": "",
+            "image": "../app/images/breedImgs/IBIZANPODENCO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/089g05-en.pdf"
         },
         {
@@ -745,7 +746,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "SPAIN",
             "url": "http://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html",
-            "image": "",
+            "image": "../app/images/breedImgs/BURGOSPOINTINGDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/090g07-en.pdf"
         },
         {
@@ -754,7 +755,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "SPAIN",
             "url": "http://www.fci.be/en/nomenclature/SPANISH-MASTIFF-91.html",
-            "image": "",
+            "image": "../app/images/breedImgs/SPANISHMASTIFF.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/091g02-en.pdf"
         },
         {
@@ -763,7 +764,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "SPAIN",
             "url": "http://www.fci.be/en/nomenclature/PYRENEAN-MASTIFF-92.html",
-            "image": "",
+            "image": "../app/images/breedImgs/PYRENEANMASTIFF.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/092g02-en.pdf"
         },
         {
@@ -772,7 +773,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "PORTUGAL",
             "url": "http://www.fci.be/en/nomenclature/PORTUGUESE-SHEEPDOG-93.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/093g01.jpg",
+            "image": "../app/images/breedImgs/PORTUGUESESHEEPDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/093g01-en.pdf"
         },
         {
@@ -781,7 +782,7 @@ var dogBreeds =
             "section": "Primitive type - Hunting Dogs",
             "country": "PORTUGAL",
             "url": "http://www.fci.be/en/nomenclature/PORTUGUESE-WARREN-HOUND-PORTUGUESE-PODENGO-94.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/094g05-1.jpg",
+            "image": "../app/images/breedImgs/PORTUGUESEWARRENHOUNDPORTUGUESEPODENGO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/094g05-en.pdf"
         },
         {
@@ -790,7 +791,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "FRANCE",
             "url": "http://www.fci.be/en/nomenclature/BRITTANY-SPANIEL-95.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/095g07.jpg",
+            "image": "../app/images/breedImgs/BRITTANYSPANIEL.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/095g07-en.pdf"
         },
         {
@@ -799,7 +800,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "PORTUGAL",
             "url": "http://www.fci.be/en/nomenclature/RAFEIRO-OF-ALENTEJO-96.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/096g02.jpg",
+            "image": "../app/images/breedImgs/RAFEIROOFALENTEJO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/096g02-en.pdf"
         },
         {
@@ -808,7 +809,7 @@ var dogBreeds =
             "section": "European Spitz",
             "country": "GERMANY",
             "url": "http://www.fci.be/en/nomenclature/GERMAN-SPITZ-97.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/097g05-1.jpg",
+            "image": "../app/images/breedImgs/GERMANSPITZ.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/097g05-en.pdf"
         },
         {
