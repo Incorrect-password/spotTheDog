@@ -3170,6 +3170,7 @@ function populateAllBreedsDB() {
  */
 function viewAllBreedsFromDB() {
     document.querySelector('#resultList').innerHTML = '';
+    document.querySelector('#listCounter').innerHTML = '';
 
     let breedArray = [];
 
@@ -3223,7 +3224,7 @@ function addSpottedButtonActivity() {
             allBreeds.getItem(button.id).then(function(record) {
                 spotBreed(button.id, record);
 
-                document.querySelector('#messageBox').innerHTML += "Dog Spotted! Well Done! <br>";
+                document.querySelector('#messageBox').innerHTML = "Dog Spotted! Well Done! <br>";
             })
         })
     })
@@ -3260,6 +3261,8 @@ function addHomeButtonActivity() {
 function viewSpottedDogsButtonActivity() {
     document.querySelector('#spottedDogsPortal').addEventListener('click', function() {
         viewSpottedBreeds();
+        spottedCount();
+
     })
 }
 
@@ -3315,16 +3318,30 @@ function notSeenItButtonActive() {
  */
 function deleteBreedFromSpotted(breedName) {
     spottedBreeds.removeItem(breedName).then(function() {
-        document.querySelector('#messageBox').innerHTML += "Wrong Dog Eh?";
+        document.querySelector('#messageBox').innerHTML = "Wrong Dog Eh?";
 
     }).catch(function(err) {
         console.log(err);
     });
 }
 
-
-
-
+function spottedCount() {
+    spottedBreeds.length().then(function(length) {
+        if (length < 10){
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You are a n00b!</p>";
+        } else if (length < 25) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You've been outside!</p>";
+        } else if (length < 50) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You've seen a lot of doggies!</p>";
+        } else if (length < 200) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You're a master spotter!</p>";
+        } else if (length <345) {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You need to get a life!</p>";
+        } else {
+            document.querySelector('#listCounter').innerHTML = "<p>You have seen " + length + " dogs. You have seen all the doggos!!!11!</p>";
+        }
+    })
+}
 
 //Old/Diagnostic Functions_____________________________________________________________________
 /**
@@ -3375,6 +3392,3 @@ function viewAllBreeds(dogBreeds) {
 
     addSpottedButtonActivity();
 }
-
-
-
