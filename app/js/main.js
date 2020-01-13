@@ -7,7 +7,7 @@ var dogBreeds =
             "section": "British and Irish Pointers and Setters",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/ENGLISH-POINTER-1.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/001g07.jpg",
+            "image": "../app/images/breedImgs/englishPointer.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/001g07-en.pdf"
         },
         {
@@ -16,7 +16,7 @@ var dogBreeds =
             "section": "British and Irish Pointers and Setters",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/ENGLISH-SETTER-2.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/002g07.jpg",
+            "image": "../app/images/breedImgs/englishSetter.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/002g07-en.pdf"
         },
         {
@@ -61,7 +61,7 @@ var dogBreeds =
             "section": "Large and medium sized Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html",
-            "image": "http://www.fci.be/Nomenclature/Illustrations/007g03.jpg",
+            "image": "../app/images/breedImgs/AiredalTerrier.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/007g03-en.pdf"
         },
         {
