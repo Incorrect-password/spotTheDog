@@ -52,7 +52,6 @@ div.tile {
   padding: 10px;
 }
 
-
 .tileImage {
   height: 80px;
   width: 90px;
@@ -107,8 +106,6 @@ button.seenToggle:active {
   color: #f5ede7;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 1.5rem;
-
-
 }
 
 .fadeIn {

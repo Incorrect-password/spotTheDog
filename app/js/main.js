@@ -3325,10 +3325,6 @@ function deleteBreedFromSpotted(breedName) {
     });
 }
 
-//count length in a var
-//if statement to see which cat it is
-//pront count and rank in new box
-
 function spottedCount() {
     spottedBreeds.length().then(function(length) {
         if (length < 10){
@@ -3396,6 +3392,3 @@ function viewAllBreeds(dogBreeds) {
 
     addSpottedButtonActivity();
 }
-
-
-
