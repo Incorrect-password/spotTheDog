@@ -3170,6 +3170,7 @@ function populateAllBreedsDB() {
  */
 function viewAllBreedsFromDB() {
     document.querySelector('#resultList').innerHTML = '';
+    document.querySelector('#listCounter').innerHTML = '';
 
     let breedArray = [];
 
