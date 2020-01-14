@@ -1898,7 +1898,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "THE NETHERLANDS",
             "url": "http://www.fci.be/en/nomenclature/STABIJHOUN-222.html",
-            "image": "../app/images/breedImgs/STABIJHOUN",
+            "image": "../app/images/breedImgs/STABIJHOUN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/222g07-en.pdf"
         },
         {
@@ -3117,7 +3117,6 @@ var dogBreeds =
             "pdf": "http://www.fci.be/Nomenclature/Standards/310g05-en.pdf"
         }
     ];
-
 
 //startup_________________________________________________________________
 
