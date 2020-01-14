@@ -3014,7 +3014,7 @@ var dogBreeds =
             "section": "Cattledogs (except Swiss Cattledogs)",
             "country": "AUSTRALIA",
             "url": "http://www.fci.be/en/nomenclature/AUSTRALIAN-STUMPY-TAIL-CATTLE-DOG-351.html",
-            "image": "AUSTRALIANSTUMPYTAILCATTLEDOG.jpg",
+            "image": "../app/images/breedImgs/AUSTRALIANSTUMPYTAILCATTLEDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/351g01-en.pdf"
         },
         {
@@ -3023,7 +3023,7 @@ var dogBreeds =
             "section": "Continental Toy Spaniel and Russian Toy",
             "country": "RUSSIA",
             "url": "http://www.fci.be/en/nomenclature/RUSSIAN-TOY-352.html",
-            "image": "RUSSIANTOY.jpg",
+            "image": "../app/images/breedImgs/RUSSIANTOY.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/352g09-en.pdf"
         },
         {
@@ -3032,7 +3032,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "URUGUAY",
             "url": "http://www.fci.be/en/nomenclature/CIMARRON-URUGUAYO-353.html",
-            "image": "CIMARRÓNURUGUAYO.jpg",
+            "image": "../app/images/breedImgs/CIMARRÓNURUGUAYO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/353g02-en.pdf"
         },
         {
@@ -3041,7 +3041,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "POLAND",
             "url": "http://www.fci.be/en/nomenclature/POLISH-HUNTING-DOG-354.html",
-            "image": "POLISHHUNTINGDOG.jpg",
+            "image": "../app/images/breedImgs/POLISHHUNTINGDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/354g06-en.pdf"
         },
         {
@@ -3050,7 +3050,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "BOSNIA AND HERZEGOVINA, CROATIA",
             "url": "http://www.fci.be/en/nomenclature/BOSNIAN-AND-HERZEGOVINIAN-CROATIAN-SHEPHERD-DOG-355.html",
-            "image": "BOSNIANANDHERZEGOVINIANCROATIANSHEPHERDDOG.jpg",
+            "image": "../app/images/breedImgs/BOSNIANANDHERZEGOVINIANCROATIANSHEPHERDDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/355g02-en.pdf"
         },
         {
@@ -3059,7 +3059,7 @@ var dogBreeds =
             "section": "Pinscher and Schnauzer type",
             "country": "DENMARK, SWEDEN",
             "url": "http://www.fci.be/en/nomenclature/DANISH-SWEDISH-FARMDOG-356.html",
-            "image": "DANISHSWEDISHFARMDOG.jpg",
+            "image": "../app/images/breedImgs/DANISHSWEDISHFARMDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/356g02-en.pdf"
         },
         {
@@ -3068,7 +3068,7 @@ var dogBreeds =
             "section": "Molossian type",
             "country": "ROMANIA",
             "url": "http://www.fci.be/en/nomenclature/ROMANIAN-BUCOVINA-SHEPHERD-357.html",
-            "image": "ROMANIANBUCOVINASHEPHERD.jpg",
+            "image": "../app/images/breedImgs/ROMANIANBUCOVINASHEPHERD.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/357g02-en.pdf"
         },
         {
@@ -3077,7 +3077,7 @@ var dogBreeds =
             "section": "Asian Spitz and related breeds",
             "country": "THAILAND",
             "url": "http://www.fci.be/en/nomenclature/THAI-BANGKAEW-DOG-358.html",
-            "image": "THAIBANGKAEWDOG.jpg",
+            "image": "../app/images/breedImgs/THAIBANGKAEWDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/358g05-en.pdf"
         },
         {
@@ -3086,7 +3086,7 @@ var dogBreeds =
             "section": "Bull type Terriers",
             "country": "GREAT BRITAIN",
             "url": "http://www.fci.be/en/nomenclature/MINIATURE-BULL-TERRIER-359.html",
-            "image": "MINIATUREBULLTERRIER.jpg",
+            "image": "../app/images/breedImgs/MINIATUREBULLTERRIER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/359g03-en.pdf"
         },
         {
@@ -3095,7 +3095,7 @@ var dogBreeds =
             "section": "Sheepdogs",
             "country": "ENGLAND",
             "url": "http://www.fci.be/en/nomenclature/LANCASHIRE-HEELER-360.html",
-            "image": "LANCASHIREHEELER.jpg",
+            "image": "../app/images/breedImgs/LANCASHIREHEELER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/360g01-en.pdf"
         },
         {
@@ -3104,7 +3104,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "ITALY",
             "url": "http://www.fci.be/en/nomenclature/SEGUGIO-MAREMMANO-361.html",
-            "image": "SEGUGIOMAREMMANO.jpg",
+            "image": "../app/images/breedImgs/SEGUGIOMAREMMANO.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/361g06-en.pdf"
         },
         {
@@ -3113,7 +3113,7 @@ var dogBreeds =
             "section": "Primitive type",
             "country": "PERU",
             "url": "http://www.fci.be/en/nomenclature/PERUVIAN-HAIRLESS-DOG-310.html",
-            "image": "PERUVIANHAIRLESSDOG.jpg",
+            "image": "../app/images/breedImgs/PERUVIANHAIRLESSDOG.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/310g05-en.pdf"
         }
     ];

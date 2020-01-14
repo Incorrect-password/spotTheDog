@@ -20,7 +20,9 @@ var filesToCache = [
     "http://localhost:1234/spotTheDog/app/images/dalmation.jpg",
     "http://localhost:1234/spotTheDog/app/images/pokeball.png",
     "http://localhost:1234/spotTheDog/app/images/willow.jpg",
-    "http://localhost:1234/spotTheDog/app/images/icons/spot-icon-48x48.png"
+    "http://localhost:1234/spotTheDog/app/images/icons/spot-icon-48x48.png",
+    "http://localhost:1234/spotTheDog/app/images/"
+
 ];
 
 self.addEventListener("install", function(event) {
