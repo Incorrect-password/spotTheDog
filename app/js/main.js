@@ -3160,6 +3160,8 @@ function populateAllBreedsDB() {
         allBreeds.setItem(breedName, breed).then(function() {
 
             document.querySelector('#messageBox').innerHTML ='Click <a href="http://localhost:1234/spotTheDog/app/">Here</a> Or Home To Start';
+
+            // document.querySelector('#messageBox').innerHTML ='Click <a href="https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/">Here</a> Or Home To Start';
         })
 
     })

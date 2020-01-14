@@ -17,6 +17,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #27262bdd;
+  height: 100vh;
 }
 
 .navbar-btn {
