@@ -99,8 +99,8 @@ button.seenToggle:active {
 #listCounter {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100vw;
+  left: 10px;
+  width: 110vw;
   background-color: #27262b;
   opacity: 0.75;
   color: #f5ede7;

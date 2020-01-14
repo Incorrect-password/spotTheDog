@@ -7,6 +7,7 @@
   "orientation": "portrait",
   "scope": "/",
   "start_url": "http://localhost:1234/spotTheDog/app/",
+  //  "start_url": "https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/",
   "icons": [
     {
     "src": "images/icons/spot-icon-16x16.png",
