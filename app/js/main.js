@@ -3136,6 +3136,7 @@ function startup() {
             console.log('allBreeds db updated');
         } else {
             document.querySelector('#messageBox').innerHTML = '';
+            document.querySelector('.text-center').style.display = 'none';
         }
 
         viewAllBreedsFromDB();
@@ -3158,12 +3159,11 @@ function populateAllBreedsDB() {
         let breedName = breed.name;
 
         allBreeds.setItem(breedName, breed).then(function() {
-
-            document.querySelector('#messageBox').innerHTML ='Click <a href="http://localhost:1234/spotTheDog/app/">Here</a> Or Home To Start';
+            document.location.reload();
 
             // document.querySelector('#messageBox').innerHTML ='Click <a href="https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/">Here</a> Or Home To Start';
-        })
 
+        })
     })
 }
 
