@@ -1,13 +1,12 @@
 {
   "name": "Spot The Dog",
   "short_name": "Spot The Dog",
-  "theme_color": "#719e40",
+  "theme_color": "#e18a41",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "http://localhost:1234/spotTheDog/app/",
-  //  "start_url": "https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/",
   "icons": [
     {
     "src": "images/icons/spot-icon-16x16.png",
@@ -42,6 +41,11 @@
     {
       "src": "images/icons/spot-icon-256x256.png",
       "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/spot-icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],

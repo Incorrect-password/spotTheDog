@@ -1,6 +1,6 @@
 var log = console.log.bind(console);//bind our console to a variable
 var version = "0.0.1";
-var cacheName = "spotTheDog";
+var cacheName = "spotTheDog/app";
 var cache = cacheName + "-" + version;
 var filesToCache = [
     "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
