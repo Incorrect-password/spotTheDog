@@ -1898,7 +1898,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "THE NETHERLANDS",
             "url": "http://www.fci.be/en/nomenclature/STABIJHOUN-222.html",
-            "image": "../app/images/breedImgs/STABIJHOUN",
+            "image": "../app/images/breedImgs/STABIJHOUN.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/222g07-en.pdf"
         },
         {
@@ -3118,7 +3118,6 @@ var dogBreeds =
         }
     ];
 
-
 //startup_________________________________________________________________
 
     let allBreeds = localforage.createInstance({
@@ -3320,6 +3319,7 @@ function notSeenItButtonActive() {
 function deleteBreedFromSpotted(breedName) {
     spottedBreeds.removeItem(breedName).then(function() {
         document.querySelector('#messageBox').innerHTML = "Wrong Dog Eh?";
+        spottedCount()
 
     }).catch(function(err) {
         console.log(err);
@@ -3328,7 +3328,9 @@ function deleteBreedFromSpotted(breedName) {
 
 function spottedCount() {
     spottedBreeds.length().then(function(length) {
-        if (length < 10){
+        if (length == 1) {
+            document.querySelector('#listCounter').innerHTML = "<p>  You have seen " + length + " dog. You are a n00b!</p>";
+        } else if (length < 10){
             document.querySelector('#listCounter').innerHTML = "<p>  You have seen " + length + " dogs. You are a n00b!</p>";
         } else if (length < 25) {
             document.querySelector('#listCounter').innerHTML = "<p>  You have seen " + length + " dogs. You've been outside!</p>";
