@@ -3328,7 +3328,9 @@ function deleteBreedFromSpotted(breedName) {
 
 function spottedCount() {
     spottedBreeds.length().then(function(length) {
-        if (length < 10){
+        if (length == 1) {
+            document.querySelector('#listCounter').innerHTML = "<p>  You have seen " + length + " dog. You are a n00b!</p>";
+        } else if (length < 10){
             document.querySelector('#listCounter').innerHTML = "<p>  You have seen " + length + " dogs. You are a n00b!</p>";
         } else if (length < 25) {
             document.querySelector('#listCounter').innerHTML = "<p>  You have seen " + length + " dogs. You've been outside!</p>";
