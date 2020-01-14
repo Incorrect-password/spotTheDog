@@ -3319,6 +3319,7 @@ function notSeenItButtonActive() {
 function deleteBreedFromSpotted(breedName) {
     spottedBreeds.removeItem(breedName).then(function() {
         document.querySelector('#messageBox').innerHTML = "Wrong Dog Eh?";
+        spottedCount()
 
     }).catch(function(err) {
         console.log(err);
