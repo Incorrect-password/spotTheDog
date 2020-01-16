@@ -3119,10 +3119,10 @@ var dogBreeds =
     ];
 
 //startup_________________________________________________________________
-if (location.protocol != 'https:')
-{
-    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}
+// if (location.protocol != 'https:')
+// {
+//     location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+// }
 
     let allBreeds = localforage.createInstance({
         name: "allBreeds"
