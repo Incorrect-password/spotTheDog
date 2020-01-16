@@ -6,7 +6,8 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "http://localhost:1234/spotTheDog/app/",
+  "start_url": "http://localhost:1234/spotTheDog/app",
+  "prefer_related_applications": false,
   "icons": [
     {
     "src": "images/icons/spot-icon-16x16.png",
@@ -50,4 +51,4 @@
     }
   ],
   "splash_pages": null
-  }
+}

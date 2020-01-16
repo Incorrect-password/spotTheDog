@@ -19,8 +19,8 @@
     <meta name="theme-color" content="#e18a41">
     <link rel="apple-touch-icon" href="images/icons/spot-icon-192x192.png">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script async src="js/main.js"></script>
     <title>Spot The Dog</title>
     <script id="allBreedsTemplate" type="text/x-handlebars-template">
@@ -57,16 +57,19 @@
     </script>
 </head>
 <body>
+<div>
     <nav class="navbar sticky-top navbar-light rounded-bottom">
-        <a class="navbar-btn"  id="homePortal">
-            <img src="images/kennel.jpg" class="rounded" width=60px height=60px alt="A dogs home that takes you home">
+        <a class="navbar-btn" id="homePortal">
+            <img src="images/Other/kennel.jpg" class="rounded" width=60px height=60px
+                 alt="A dogs home that takes you home">
         </a>
         <form class="form-inline d-flex justify-content-center my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="This Search Doesn't Work Yet" aria-label="Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="This Search Doesn't Work Yet"
+                   aria-label="Search">
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>
         <a class="navbar-btn" id="spottedDogsPortal">
-            <img src="images/dalmation.jpg" class="rounded" width=60px height=60px
+            <img src="images/Other/dalmation.jpg" class="rounded" width=60px height=60px
                  alt="A spotted dog that takes you to dogs spotted">
         </a>
     </nav>
@@ -78,20 +81,13 @@
         <div class="row justify-content-center">
             <div id="messageBox" class="container"></div>
         </div>
-        <div class="text-center">
-            <div class="spinner-border" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-            <p>Loading...</p>
-        </div>
-
         <div class="row justify-content-center">
             <div id="resultList" class="container"></div>
         </div>
-
         <div class="row justify-content-center fixed-bottom ">
             <div id="listCounter" class="container"></div>
         </div>
     </div>
+</div>
 </body>
 </html>

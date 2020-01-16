@@ -11,7 +11,7 @@ nav {
 }
 
 body {
-  background-image: url("../images/willow.jpg");
+  background-image: url("../images/Other/willow.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: contain;
@@ -86,7 +86,7 @@ button.seenToggle {
   width: 90px;
   border-right: 2px solid #000000;
   border-bottom: 2px solid #000000;
-  background: url("../images/pokeball.png") no-repeat;
+  background: url("../images/Other/pokeball.png") no-repeat;
   background-size: cover;
   color: #e18a41;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
