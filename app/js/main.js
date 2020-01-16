@@ -530,7 +530,7 @@ var dogBreeds =
             "section": "Pinscher and Schnauzer type",
             "country": "AUSTRIA",
             "url": "http://www.fci.be/en/nomenclature/AUSTRIAN-PINSCHER-64.html",
-            "image": "../app/images/breedImgs/AUSTRIAN PINSCHER.jpg",
+            "image": "../app/images/breedImgs/AUSTRIANPINSCHER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/064g02-en.pdf"
         },
         {
@@ -674,7 +674,7 @@ var dogBreeds =
             "section": "Small Belgian Dogs",
             "country": "BELGIUM",
             "url": "http://www.fci.be/en/nomenclature/PETIT-BRABANCON-82.html",
-            "image": "../app/images/breedImgs/PETITBRABANÇON.jpg",
+            "image": "../app/images/breedImgs/PETITBRABANCON.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/082g09-en.pdf"
         },
         {
@@ -989,7 +989,7 @@ var dogBreeds =
             "section": "Continental Pointing Dogs",
             "country": "GERMANY",
             "url": "http://www.fci.be/en/nomenclature/LARGE-MUNSTERLANDER-118.html",
-            "image": "../app/images/breedImgs/LARGE MUNSTERLANDER.jpg",
+            "image": "../app/images/breedImgs/LARGEMUNSTERLANDER.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/118g07-en.pdf"
         },
         {
@@ -1088,7 +1088,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "SWEDEN",
             "url": "http://www.fci.be/en/nomenclature/SMALANDSSTOVARE-129.html",
-            "image": "../app/images/breedImgs/SMÅLANDSSTÖVARE.jpg",
+            "image": "../app/images/breedImgs/SMALANDSSTOVARE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/129g06-en.pdf"
         },
         {
@@ -1106,7 +1106,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "SWEDEN",
             "url": "http://www.fci.be/en/nomenclature/SCHILLERSTOVARE-131.html",
-            "image": "../app/images/breedImgs/SCHILLERSTÖVARE.jpg",
+            "image": "../app/images/breedImgs/SCHILLERSTOVARE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/131g06-en.pdf"
         },
         {
@@ -1115,7 +1115,7 @@ var dogBreeds =
             "section": "Scent hounds",
             "country": "SWEDEN",
             "url": "http://www.fci.be/en/nomenclature/HAMILTONSTOVARE-132.html",
-            "image": "../app/images/breedImgs/HAMILTONSTÖVARE.jpg",
+            "image": "../app/images/breedImgs/HAMILTONSTOVARE.jpg",
             "pdf": "http://www.fci.be/Nomenclature/Standards/132g06-en.pdf"
         },
         {
@@ -3119,6 +3119,10 @@ var dogBreeds =
     ];
 
 //startup_________________________________________________________________
+if (location.protocol != 'https:')
+{
+    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
 
     let allBreeds = localforage.createInstance({
         name: "allBreeds"
@@ -3127,6 +3131,7 @@ var dogBreeds =
     let spottedBreeds = localforage.createInstance({
         name: "spottedDogs"
     });
+
 startup()
 
 function startup() {
@@ -3136,7 +3141,6 @@ function startup() {
             console.log('allBreeds db updated');
         } else {
             document.querySelector('#messageBox').innerHTML = '';
-            document.querySelector('.text-center').style.display = 'none';
         }
 
         viewAllBreedsFromDB();
@@ -3159,9 +3163,8 @@ function populateAllBreedsDB() {
         let breedName = breed.name;
 
         allBreeds.setItem(breedName, breed).then(function() {
-            document.location.reload();
 
-            // document.querySelector('#messageBox').innerHTML ='Click <a href="https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/">Here</a> Or Home To Start';
+            document.querySelector('#messageBox').innerHTML ='Click <a href="https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/">Here</a> Or Home To Start';
 
         })
     })

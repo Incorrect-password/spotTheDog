@@ -16,10 +16,10 @@ var filesToCache = [
     "http://localhost:1234/spotTheDog/app/js/localforage.js",
     "http://localhost:1234/spotTheDog/app/css/style.css",
 
-    "http://localhost:1234/spotTheDog/app/images/kennel.jpg",
-    "http://localhost:1234/spotTheDog/app/images/dalmation.jpg",
-    "http://localhost:1234/spotTheDog/app/images/pokeball.png",
-    "http://localhost:1234/spotTheDog/app/images/willow.jpg",
+    "http://localhost:1234/spotTheDog/app/images/Other/kennel.jpg",
+    "http://localhost:1234/spotTheDog/app/images/Other/dalmation.jpg",
+    "http://localhost:1234/spotTheDog/app/images/Other/pokeball.png",
+    "http://localhost:1234/spotTheDog/app/images/Other/willow.jpg",
     "http://localhost:1234/spotTheDog/app/images/icons/spot-icon-48x48.png",
     "http://localhost:1234/spotTheDog/app/images/icons/spot-icon-144x144.png",
 
@@ -82,7 +82,7 @@ var filesToCache = [
     "http://localhost:1234/spotTheDog/app/images/breedImgs/STBERNARD.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/COARSEHAIREDSTYRIANHOUND.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/AUSTRIANBLACKANDTANHOUND.jpg",
-    "http://localhost:1234/spotTheDog/app/images/breedImgs/AUSTRIAN PINSCHER.jpg",
+    "http://localhost:1234/spotTheDog/app/images/breedImgs/AUSTRIANPINSCHER.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/MALTESE.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/FAWNBRITTANYGRIFFON.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/PETITBASSETGRIFFONVENDEEN.jpg",
@@ -98,7 +98,7 @@ var filesToCache = [
     "http://localhost:1234/spotTheDog/app/images/breedImgs/WELSHTERRIER.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/GRIFFONBRUXELLOIS.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/GRIFFONBELGE.jpg",
-    "http://localhost:1234/spotTheDog/app/images/breedImgs/PETITBRABANÇON.jpg",
+    "http://localhost:1234/spotTheDog/app/images/breedImgs/PETITBRABANCON.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/SCHIPPERKE.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/BLOODHOUND.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/WESTHIGHLANDWHITETERRIER.jpg",
@@ -133,7 +133,7 @@ var filesToCache = [
     "http://localhost:1234/spotTheDog/app/images/breedImgs/SAINTGERMAINPOINTER.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/DOGUEDEBORDEAUX.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/DEUTSCHLANGHAAR.jpg",
-    "http://localhost:1234/spotTheDog/app/images/breedImgs/LARGE MUNSTERLANDER.jpg",
+    "http://localhost:1234/spotTheDog/app/images/breedImgs/LARGEMUNSTERLANDER.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/GERMANSHORTHAIREDPOINTINGDOG.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/IRISHREDSETTER.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/FLATCOATEDRETRIEVER.jpg",
@@ -144,10 +144,10 @@ var filesToCache = [
     "http://localhost:1234/spotTheDog/app/images/breedImgs/WELSHSPRINGERSPANIEL.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/SUSSEXSPANIEL.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/KINGCHARLESSPANIEL.jpg",
-    "http://localhost:1234/spotTheDog/app/images/breedImgs/SMÅLANDSSTÖVARE.jpg",
+    "http://localhost:1234/spotTheDog/app/images/breedImgs/SMALANDSSTOVARE.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/DREVER.jpg",
-    "http://localhost:1234/spotTheDog/app/images/breedImgs/SCHILLERSTÖVARE.jpg",
-    "http://localhost:1234/spotTheDog/app/images/breedImgs/HAMILTONSTÖVARE.jpg",
+    "http://localhost:1234/spotTheDog/app/images/breedImgs/SCHILLERSTOVARE.jpg",
+    "http://localhost:1234/spotTheDog/app/images/breedImgs/HAMILTONSTOVARE.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/FRENCHPOINTINGDOGGASCOGNETYPE.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/SWEDISHLAPPHUND.jpg",
     "http://localhost:1234/spotTheDog/app/images/breedImgs/CAVALIERKINGCHARLESSPANIEL.jpg",
@@ -387,11 +387,10 @@ self.addEventListener("fetch", function(event) {
             caches.match(event.request)
                 .then(function(response) {
                  if(response) {
-                     log("Fulfilling " + event.request.url + "from cache.")
+                     log("Fulfilling " + event.request.url + " from cache.")
                      return response;
                  }else{
                      log(event.request.url + "not found in cache, fetching from network");
-
                      return fetch(event.request)
                  }
             })
